@@ -1,0 +1,17 @@
+           SPELL=kidletime
+          SPELLX=kf5/kidletime
+         VERSION=5.x
+#     SOURCE_HASH=sha512:
+#          SOURCE=$SPELL-$VERSION.tar.xz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+#   SOURCE_URL[0]=$KDE_URL/$SPELL/$SOURCE
+       LICENSE[0]=GPL
+         ENTERED=20121129
+        KEYWORDS="KF5"
+           SHORT=" module for KF5"
+cat << EOF
+KIdleTime provides notifications of device's idle time. 
+KIdleTime is a platform-independent framework that allows detecting and notifying of idle time 
+events of the device. It can, for example be used to start an action (or a job) after a certain 
+amount of user inactivity.
+EOF

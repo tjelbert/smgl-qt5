@@ -1,0 +1,12 @@
+depends cmake    &&
+if [[ ${KF5} == 'kde5' ]];then
+ depends qtbase &&
+ depends qtx11extras &&
+ depends extra-cmake-modules
+ optional_depends kwin5 '' '' 'plasma desktop'
+else
+ depends qt4      &&
+ depends kdelibs &&
+ depends kde-runtime &&
+ optional_depends kde-workspace '' '' 'kde desktop'
+fi

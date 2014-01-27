@@ -1,0 +1,18 @@
+           SPELL=kcodecs
+          SPELLX=kf5/kcodecs
+         VERSION=5.x
+#     SOURCE_HASH=sha512:
+#          SOURCE=$SPELL-$VERSION.tar.xz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+#   SOURCE_URL[0]=$KDE_URL/$SPELL/$SOURCE
+       LICENSE[0]=GPL
+         ENTERED=20121129
+        KEYWORDS="KF5"
+           SHORT=" module for KF5"
+cat << EOF
+KCodecs offers commonly used encoding algorithms, such as base64, uu and quoted-printable 
+specifications. 
+A wrapper class for the most commonly used encoding and decoding algorithms. Currently there 
+is support for encoding and decoding input using base64, uu and the quoted-printable 
+specifications.
+EOF

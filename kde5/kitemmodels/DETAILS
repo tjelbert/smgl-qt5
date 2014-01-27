@@ -1,0 +1,17 @@
+           SPELL=kitemmodels
+          SPELLX=kf5/$SPELL
+         VERSION=5.x
+#     SOURCE_HASH=sha512:
+#          SOURCE=$SPELL-$VERSION.tar.xz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+#   SOURCE_URL[0]=$KDE_URL/$SPELL/$SOURCE
+       LICENSE[0]=GPL
+         ENTERED=20121129
+        KEYWORDS="KF5"
+           SHORT="ItemModels framework  for KF5"
+cat << EOF
+The ItemModels framework contains data models on top of QAbstractItemModel that help in common 
+tasks, such as sorting, proxying and filtering. 
+ItemModels contains useful classes such as a model for checkable or selectable items, recursive 
+filtering and breadcrumb selection.
+EOF

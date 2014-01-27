@@ -1,0 +1,17 @@
+           SPELL=kcrash
+          SPELLX=kf5/$SPELL
+         VERSION=5.x
+#     SOURCE_HASH=sha512:
+#          SOURCE=$SPELL-$VERSION.tar.xz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+#   SOURCE_URL[0]=$KDE_URL/$SPELL/$SOURCE
+       LICENSE[0]=GPL
+         ENTERED=20130826
+        KEYWORDS="KF5"
+           SHORT="kcrash module for KF5"
+cat << EOF
+KCrash offers crash handling functions. 
+KCrash allows you to set a crash handler in case your application crashes. It allows, for 
+example, to show a crash report dialog, to call emergency save routines, and to auto-restart the 
+application
+EOF

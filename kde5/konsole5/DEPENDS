@@ -1,0 +1,15 @@
+depends cmake  &&
+depends extra-cmake-modules &&
+depends kde4support &&
+depends kf5umbrella &&
+depends kguiaddons  &&
+depends ki18n       &&
+depends kiconthemes &&
+depends kio         &&
+depends knotifications &&
+depends knotifyconfig  &&
+depends kpty           &&
+depends ktextwidgets   &&
+depends kwindowsystem  &&
+depends kxmlgui   &&
+depends qtbase 

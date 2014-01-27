@@ -1,0 +1,15 @@
+depends cmake  &&
+depends extra-cmake-modules &&
+depends karchive &&
+depends kcmutils &&
+#depends kconfig  &&
+depends kguiaddons &&
+depends ki18n &&
+#depends kinit &&
+depends kio   &&
+#depends kjobwidgets &&
+depends kparts &&
+depends kprintutils &&
+#depends kxmlgui &&
+depends sonnet  &&
+depends qtbase 

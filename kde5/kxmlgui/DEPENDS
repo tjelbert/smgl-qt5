@@ -1,0 +1,16 @@
+depends cmake  &&
+depends extra-cmake-modules &&
+depends qtbase &&
+depends kauth     &&
+depends kcodecs   &&
+depends kconfig   &&
+depends kconfigwidgets &&
+depends kcoreaddons  &&
+depends kglobalaccel &&
+depends ki18n        &&
+depends kiconthemes  &&
+depends kitemviews   &&
+depends ktextwidgets &&
+depends kwidgetsaddons &&
+depends kwindowsystem  &&
+optional_depends attica5 '' '' 'Support for Get Hot New Stuff'

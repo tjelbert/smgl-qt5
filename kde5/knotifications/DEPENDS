@@ -1,0 +1,5 @@
+depends cmake  &&
+depends extra-cmake-modules &&
+depends kwindowsystem &&
+depends qtbase &&
+optional_depends libdbusmenu-qt5 '' '' 'DBusMenu protocol'

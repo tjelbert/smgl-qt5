@@ -1,0 +1,10 @@
+           SPELL=kactivities5
+         VERSION=5.x
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL"
+        WEB_SITE=http://www.kde.org
+         ENTERED=20131021
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT=""
+cat << EOF
+EOF

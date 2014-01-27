@@ -1,0 +1,18 @@
+           SPELL=knotifications
+          SPELLX=kf5/$SPELL
+         VERSION=5.x
+#     SOURCE_HASH=sha512:
+#          SOURCE=$SPELL-$VERSION.tar.xz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+#   SOURCE_URL[0]=$KDE_URL/$SPELL/$SOURCE
+       LICENSE[0]=GPL
+         ENTERED=20130826
+        KEYWORDS="KF5"
+           SHORT="knotifications module for KF5"
+cat << EOF
+KNotifications allows to notify the user of events. 
+KNotification is a complete framework for user notifications. It allows to use different types 
+of noticiations, such as persistent ones, and to configure details of the notifications, such as 
+if a sound should be played, a passive popup, a script executed, etc. KNotifications supports 
+the Freedesktop Notifications protocol.
+EOF

@@ -1,0 +1,10 @@
+depends cmake  &&
+depends extra-cmake-modules &&
+depends kconfig  &&
+#depends kcoreaddons &&
+depends ki18n     &&
+depends kiconthemes &&
+depends kio      &&
+depends qtbase   &&
+depends qtscript &&
+depends qtdeclarative

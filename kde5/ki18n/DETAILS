@@ -1,0 +1,15 @@
+           SPELL=ki18n
+          SPELLX=kf5/$SPELL
+         VERSION=5.x
+#     SOURCE_HASH=sha512:
+#          SOURCE=$SPELL-$VERSION.tar.xz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+#   SOURCE_URL[0]=$KDE_URL/$SPELL/$SOURCE
+       LICENSE[0]=GPL
+         ENTERED=20130826
+        KEYWORDS="KF5"
+           SHORT="ki18n module for KF5"
+cat << EOF
+KI18n is a get-text based translation framework. 
+KI18n allows localization of applications for all cases. It is based on gettext.
+EOF

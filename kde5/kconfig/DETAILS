@@ -1,0 +1,18 @@
+           SPELL=kconfig
+          SPELLX=kf5/kconfig
+         VERSION=5.x
+#     SOURCE_HASH=sha512:
+#          SOURCE=$SPELL-$VERSION.tar.xz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+#   SOURCE_URL[0]=$KDE_URL/$SPELL/$SOURCE
+       LICENSE[0]=GPL
+         ENTERED=20121129
+        KEYWORDS="KF5"
+           SHORT="KConfig framework for KF5"
+cat << EOF
+The KConfig framework offers functionality around reading and writing configuration. 
+KConfig consists of two parts, KConfigCore and KConfigGui. KConfigCore offers an abstract API to 
+configuration files. It allows grouping and transparent cascading and (de-)serialization. 
+KConfigGui offers, on top of KConfigCore, shortcuts and configuration for some common cases, 
+such as session and window restoration.
+EOF

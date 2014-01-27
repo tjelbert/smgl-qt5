@@ -1,0 +1,33 @@
+           SPELL=kwidgetsaddons
+          SPELLX=kf5/kwidgetsaddons
+         VERSION=5.x
+#     SOURCE_HASH=sha512:
+#          SOURCE=$SPELL-$VERSION.tar.xz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+#   SOURCE_URL[0]=$KDE_URL/$SPELL/$SOURCE
+       LICENSE[0]=GPL
+         ENTERED=20121129
+        KEYWORDS="KF5"
+           SHORT=" module for KF5"
+cat << EOF
+KWidgetAddons contains higher-level user interface elements for common tasks. 
+KWidgetAddons contains widgets for the following areas: 
+ Keyboard accelerators 
+ Action menues and selections 
+ Capacity indicator 
+ Character selection 
+ Color selection 
+ Drag decorators 
+ Fonts 
+ Message boxes 
+ Passwords 
+ Paging of e.g. wizards 
+ Popups and other dialogs 
+ Rating 
+ Ruler 
+ Separators 
+ Squeezed labels 
+ Titles 
+ URL line edits with drag and drop 
+ View state serialization
+EOF

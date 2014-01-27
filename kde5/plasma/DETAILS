@@ -1,0 +1,12 @@
+           SPELL=plasma
+         VERSION=5.x
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL-$VERSION"
+        WEB_SITE=http://www.kde.org
+         ENTERED=20130205
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="Plasma library for KDE"
+cat << EOF
+Plasma library for KDE
+EOF
