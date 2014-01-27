@@ -1,6 +1,9 @@
 . $GRIMOIRE/libaccount
-. $GRIMOIRE/libgcc
 . $GRIMOIRE/config_query_multi.function
+
+QT5DIR="$INSTALL_ROOT/opt/qt5"
+KF5DIR="$QT5DIR"
+SRC=$SOURCE_DIRECTORY
 
 if is_depends_enabled $SPELL python;then
   VV=`installed_version python | cut -c-3` &&
@@ -14,15 +17,19 @@ if is_depends_enabled $SPELL python3;then
   export PYTHON=$PYTHON3
 fi
 
-QT5DIR=$INSTALL_ROOT/opt/qt5
-qt5_build() {
-  export PKG_CONFIG_PATH="$QT5DIR/lib/pkgconfig"
+#---------------------------------------------------------------------
+function default_pre_build () {
+  real_default_pre_build
   cd $SOURCE_DIRECTORY &&
-  QMAKEPATH="$QT5DIR/bin"
-# in some cases, we set a symlink to python in the source directory
-  PATH="$QMAKEPATH:$SOURCE_DIRECTORY:$PATH"
-  qmake PREFIX=$QT5DIR $OPTS *.pro &&
-  make
+  mkdir build
+}
+
+#---------------------------------------------------------------------
+function kde5_build() {
+  export XDG_DATA_DIRS=$KF5DIR/share:/usr/share
+  OPTS+=" -DCMAKE_BUILD_TYPE=$KDE_BUILD_TYPE \
+          -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=1 -Wno-dev"
+  qt5_cmake_build
 }
 
 
@@ -54,131 +61,96 @@ function default_grimoire_post_install () {
   popd &> /dev/null
 }
 
-#---------------------------------------------------------------------
-## Replaces sorcerys default_pre_build with a custom version using
-## the invoke_gcc function from libgcc #10641
-#---------------------------------------------------------------------
-function default_pre_build () {
-  invoke_gcc  &&
-  real_default_pre_build
-}
 
 #---------------------------------------------------------------------
-## Sets the current script to run only one make job
+# Runs update-desktop-database if it is installed
 #---------------------------------------------------------------------
-
-function make_single ()
+function update_desktop_database ()
 {
-  JOBS_PER_HOST=0  &&
-     MAKE_NJOBS=1
-}
-
-#---------------------------------------------------------------------
-## Re-enables the normal Sorcery make (cancels single_make)
-#---------------------------------------------------------------------
-
-function make_normal ()
-{
-  source $COMPILE_CONFIG
-}
-
-
-#-------------------------------------------------------------------------
-## Default build for Python2 spell.
-#-------------------------------------------------------------------------
-function default_build_python() {
-  $PYTHON2 setup.py build "$@"
-}
-
-#-------------------------------------------------------------------------
-## Default build for Python 3 spell.
-#-------------------------------------------------------------------------
-function default_build_python3() {
-  $PYTHON3 setup.py build "$@"
-}
-
-#-------------------------------------------------------------------------
-## Default install for Python spell.
-#-------------------------------------------------------------------------
-function default_install_python() {
-  $PYTHON2 setup.py install --root "$INSTALL_ROOT/" "$@"
-}
-
-#-------------------------------------------------------------------------
-## Default install for Python 3 spell.
-#-------------------------------------------------------------------------
-function default_install_python3() {
-  $PYTHON3 setup.py install --root "$INSTALL_ROOT/" "$@"
-}
-# spells in several  sections now need cmake or qt4
-cmake_build() {
-  cd $SOURCE_DIRECTORY  &&
-  mkdir -p build        &&
-  cd build              &&
-  prepare_cmake_flags   &&
-  cmake -DCMAKE_INSTALL_PREFIX=$INSTALL_ROOT/usr -DSYSCONFDIR=$INSTALL_ROOT/etc $OPTS ../  &&
-  make
-}
-
-#---
-## Select SCM branch. If no parameter is given, it assumes a single scm branch.
-##
-## Saves selected branch in ${SPELL}_BRANCH, and auto-update setting on
-## ${SPELL}_AUTOUPDATE.
-##
-## Usage:
-##   . ${GRIMOIRE}/FUNCTIONS &&
-##   prepare_select_branch [branch] ...
-#---
-function prepare_select_branch() {
-  local spell=$(get_up_spell_name) &&
-  local branch="$spell"_BRANCH &&
-
-  if [[ $# > 1 ]]; then
-    config_query_list $branch "Select one of the available branches:" "$@"
-  else
-    eval $branch=\""${1:-scm}"\"
-  fi &&
-
-  if [[ "${!branch/-*}" = scm ]]; then
-    config_query "$spell"_AUTOUPDATE 'Automatically update on every system update?' n
+  if test -x /usr/bin/update-desktop-database; then
+    message "${MESSAGE_COLOR}Updating application mime type database.${DEFAULT_COLOR}"
+    /usr/bin/update-desktop-database
   fi
 }
 
-#---
-## Get uppercase spell name with _ instead of -
-#---
-function get_up_spell_name() {
-  echo ${1:-$SPELL} | tr "a-z-" "A-Z_"
+
+# spells in several  sections now need cmake or qt4
+function cmake_build() {
+  cd $SOURCE_DIRECTORY/build  &&
+  if [[ -f /usr/bin/ninja ]];then
+    MAKE=ninja
+    OPTS+=" -G Ninja"
+  else
+    MAKE=make
+  fi &&
+
+  message INSTALL_PREFIX=$KF5DIR &&
+
+  cmake -DCMAKE_INSTALL_PREFIX=$KF5DIR \
+        -DCMAKE_INSTALL_LIBDIR=lib \
+        -DCMAKE_INSTALL_MANDIR=share/man \
+        -DCMAKE_PREFIX_PATH=share/apps/cmake/modules \
+        -DSYSCONFDIR=$INSTALL_ROOT/etc \
+        -DCMAKE_BUILD_TYPE=Release \
+        $OPTS $SRC &&
+  $MAKE
 }
 
-# Move SPELL_OPTS to OPTS
-# basicly generic OPTS="$SPELL_OPTS $OPTS"
-function prepare_opts() {
-  # this is here so that config_query_option can be used without
-  # extra junk
-  local up_spell_name=$(get_up_spell_name)     &&
-  local tempopts="${up_spell_name}_OPTS"                  &&
-  OPTS="${!tempopts} $OPTS"
+function cmake_install() {
+  if [[ -f /usr/bin/ninja ]];then
+    ninja install
+  else
+    make install
+  fi
 }
+
+
+function qt5_cmake_build() {
+  PATH="$QT5DIR/bin/:$PATH"
+  export PKG_CONFIG_PATH="$QT5DIR/lib/pkgconfig"
+  cmake_build
+}
+
+
+
+qt5_build() {
+  cd  $BLD  &&
+  PATH="$QT5DIR/bin:$PATH"
+  qmake PREFIX=$QT5DIR $OPTS $SRC/*.pro &&
+  make
+}
+
+qbs_build() {
+  cd  $SOURCE_DIRECTORY  &&
+  PATH="$QT5DIR/bin:$PATH"
+  qbs --file src cpp.optimization:"fast" profile:gcc
+# buildVariant:"release"
+}
+
+qbs_install() {
+  qbs install --install-root $QT5DIR
+}
+
 
 #---
 ## Default configure
 #---
 
 function default_build_configure() {
-  prepare_opts                                            &&
+  # this is here so that config_query_option can be used without
+  # extra junk
+  local up_spell_name=$(echo $SPELL | tr "a-z" "A-Z")     &&
+  local up_spell_name=$(echo $SPELL | tr "-" "_")         &&
+  local tempopts="${up_spell_name}_OPTS"                  &&
+  OPTS="${!tempopts} $OPTS"                               &&
   OPTS="$OPTS --build=${BUILD}"                           &&
-  #If these switches are used, they _may_ stop distcc and ccache from working
-  # for some spells (bug 3798)
-  #  We could write wrappers for all of the possible binaries
-  [[ $CROSS_INSTALL == on ]] && OPTS="$OPTS --host=${HOST}"
 
   ./configure --prefix=${INSTALL_ROOT}/usr                 \
           --sysconfdir=${INSTALL_ROOT}/etc                 \
        --localstatedir=${INSTALL_ROOT}/var                 \
-              --mandir=${INSTALL_ROOT}/usr/share/man       \
-             --infodir=${INSTALL_ROOT}/usr/share/info      \
+              --libdir=${INSTALL_ROOT}/usr/lib        \
+              --mandir=${INSTALL_ROOT}/usr/share/man  \
+             --infodir=${INSTALL_ROOT}/usr/share/info \
                        $OPTS
 }
 
@@ -190,29 +162,4 @@ function default_build_make(){
   make
 }
 
-#---
-## Compare if one version is less than another (uses sort from coreutils)
-#---
-function is_version_less() {
-  [ ! $(echo -e "$1\n$2" | sort --version-sort | head -1) = "$2" ]
-}
 
-#---
-## Simple version check with force depends
-## @params $1 - the spell to check the version of
-## @params $2 - the simple version to check against
-##              (if proper is 2.1.0 then this is 210)
-## @params $3 - how many digits to compare against from left to right
-##              defaults to 99 digits
-#---
-function simple_version_check_force_depends(){
-if spell_ok $1 &&
-   [[ $(installed_version $1|sed -e 's:^0\.::' -e 's:\.::g' | cut -c-${3:=99}) -lt $2 ]]
-  then
-    force_depends $1
-fi
-}
-
-. $GRIMOIRE/glselect.function
-. $GRIMOIRE/bzr_download.function
-. $GRIMOIRE/hg_download.function
