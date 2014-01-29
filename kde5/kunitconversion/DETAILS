@@ -1,10 +1,9 @@
            SPELL=kunitconversion
-          SPELLX=kf5/$SPELL
-         VERSION=5.x
-#     SOURCE_HASH=sha512:
-#          SOURCE=$SPELL-$VERSION.tar.xz
+         VERSION=4.96.0
+          SOURCE=$SPELL-$VERSION.tar.xz
+     SOURCE_HASH=sha512:
+      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-#   SOURCE_URL[0]=$KDE_URL/$SPELL/$SOURCE
        LICENSE[0]=GPL
          ENTERED=20130826
         KEYWORDS="KF5"
