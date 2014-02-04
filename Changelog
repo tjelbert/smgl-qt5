@@ -1,0 +1,8 @@
+2014-02-04 Treeve Jelbert <treeve@sourcemage.org>
+	* FUNCTIONS: fixed qt5_build
+
+2014-01-29 Treeve Jelbert <treeve@sourcemage.org>
+	add split kf5 frameworks
+
+2014-01-26 Treeve Jelbert <treeve@sourcemage.org>
+	import full history of qt5 modules

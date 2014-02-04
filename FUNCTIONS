@@ -114,7 +114,7 @@ function qt5_cmake_build() {
 
 
 qt5_build() {
-  cd  $BLD  &&
+  cd  $SOURCE_DIRECTORY &&
   PATH="$QT5DIR/bin:$PATH"
   qmake PREFIX=$QT5DIR $OPTS $SRC/*.pro &&
   make
