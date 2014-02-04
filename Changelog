@@ -2,7 +2,8 @@
 	* FUNCTIONS: fixed qt5_build
 	* qt5-community/*: deprecated API from Qt4
 	* kde5/kactivies5, kde5/konsole5, kde5/plasma: removed
-	  it was premature tp put these here
+	  it was premature to put these here
+	* qt5/qtjsbackend: deleted, now obsolete
 
 2014-01-29 Treeve Jelbert <treeve@sourcemage.org>
 	add split kf5 frameworks
