@@ -1,6 +1,8 @@
+2014-02-05 Treeve Jelbert <treeve@sourcemage.org> 
+	* DETAILS: version 5.2.1 (stable)
+
 2014-01-26 Treeve Jelbert <treeve@sourcemage.org>
 	* PRE_BUILD, icu.patch: fix compile with icu-51.1
-
 2013-12-12 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.2.0
 
