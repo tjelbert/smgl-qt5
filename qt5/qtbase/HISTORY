@@ -1,6 +1,9 @@
+2014-02-05 Treeve Jelbert <treeve@sourcemage.org> 
+	* DETAILS: version 5.2.1 (stable)
+	* BUILD: delete DEMOS
+
 2013-12-12 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.2.0
-
 2013-12-05  Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.2.0
 	  SECURITY_PATCH=1 - fixes CVE-2013-4549
