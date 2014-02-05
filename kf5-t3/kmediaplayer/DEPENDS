@@ -1,10 +1,6 @@
 depends cmake  &&
 depends extra-cmake-modules &&
-#depends kbookmarks &&
-#depends kio    &&
 depends kparts &&
-depends ki18n  &&
 depends kxmlgui &&
-#depends solid  &&
 depends qtbase &&
 depends phonon4qt5
