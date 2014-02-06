@@ -1,3 +1,6 @@
+2014-02-06 Treeve Jelbert <treeve@sourcemage.org>
+	* qt5/qbs: deleted, it belongs in main grimoire
+
 2014-02-04 Treeve Jelbert <treeve@sourcemage.org>
 	* FUNCTIONS: fixed qt5_build
 	* qt5-community/*: deprecated API from Qt4

@@ -1,1 +1,0 @@
-make install INSTALL_ROOT=$QT5DIR
