@@ -103,4 +103,6 @@ optional_depends  libxkbcommon '' '' 'XKB keyboard/input handling' &&
 
 if [[  $QT_ACCESS == "-accessibility" ]]; then
   depends at-spi2-core
-fi
+fi &&
+
+optional_depends mtdev '-mtdev' '-no-mtdev' 'Enable mtdev support'
