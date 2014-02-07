@@ -1,4 +1,7 @@
-2014-02-06 Treeve Jelbert <treeve@sourcemage.org> 
+2014-02-07 Treeve Jelbert <treeve@sourcemage.org>
+	* PRE_BUILD: add an entry for qt5 to /etc/ld.so.conf
+
+2014-02-06 Treeve Jelbert <treeve@sourcemage.org>
 	* DEPENDS: add optional mtdev
 
 2014-02-05 Treeve Jelbert <treeve@sourcemage.org> 
