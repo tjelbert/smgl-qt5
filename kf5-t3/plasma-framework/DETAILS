@@ -1,0 +1,15 @@
+           SPELL=plasma-framework
+         VERSION=4.96.0
+     SOURCE_HASH=sha512:
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/frameworks/plasma-framework
+         ENTERED=20130205
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="Plasma library for KDE"
+cat << EOF
+Plasma library for KDE
+EOF
