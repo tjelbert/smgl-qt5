@@ -1,9 +1,10 @@
            SPELL=kdeclarative
          VERSION=4.96.0
-          SOURCE=$SPELL-$VERSION.tar.xz
      SOURCE_HASH=sha512:
+          SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/frameworks/kdeclarative
        LICENSE[0]=GPL
          ENTERED=20130901
         KEYWORDS="KDE5"

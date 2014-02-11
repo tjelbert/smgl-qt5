@@ -1,9 +1,10 @@
            SPELL=threadweaver
          VERSION=4.96.0
-          SOURCE=$SPELL-$VERSION.tar.xz
      SOURCE_HASH=sha512:
+          SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/frameworks/threadweaver
        LICENSE[0]=GPL
          ENTERED=20121129
         KEYWORDS="KF5"
