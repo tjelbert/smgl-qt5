@@ -6,4 +6,4 @@ depends knotifications &&
 depends kparts   &&
 depends kwallet-framework &
 depends qtbase   &&
-depends qtwebkit5
+depends qtwebkit
