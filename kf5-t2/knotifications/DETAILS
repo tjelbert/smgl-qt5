@@ -1,6 +1,6 @@
            SPELL=knotifications
          VERSION=4.96.0
-     SOURCE_HASH=sha512:
+     SOURCE_HASH=sha512:8f9a0d7acde8fa985cd090b290e11ef05e0e0ea52b9b74026d2dd208cb920b92ed39ebb0c9e9e2ce715ba1bf114d7d646e65ab12a63ae61cc6088375ef1fd0de
           SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
