@@ -1,6 +1,6 @@
            SPELL=kmediaplayer
          VERSION=4.96.0
-     SOURCE_HASH=sha512:
+     SOURCE_HASH=sha512:8a494f191c0ccf16e97cae10a251e4a15b1ffdbd82f6cc2c91e8a1f9dadf27dc12d866cdfbec10ce453125c487efdfe708444afd85e450a103ef10ac0f532f9c
           SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
