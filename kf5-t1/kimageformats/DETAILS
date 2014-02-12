@@ -1,6 +1,6 @@
            SPELL=kimageformats
          VERSION=4.96.0
-     SOURCE_HASH=sha512:
+     SOURCE_HASH=sha512:81fa57d258efdbb3e51e83dea3ee64fb5403259e42e1b6f77aa51006ec2c36a25c8ab88eed5f145ea5b47f8f9867c7721bf9fd5fb8ffff6942db778d5307abde
           SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
