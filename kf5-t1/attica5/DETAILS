@@ -1,9 +1,10 @@
            SPELL=attica5
+          SPELLX=attica
          VERSION=4.96.0
-     SOURCE_HASH=sha512:
-          SOURCE=$SPELL-$VERSION.tar.xz
+     SOURCE_HASH=sha512:3aa316614d9a126dbdbc73e3840e957d65b4567466bb45b58c0dcbb5b5c540c98bd1d9bdcc4767d94e5233911076cc520afa00748fe51ff54ae99350667cb729
+          SOURCE=$SPELLX-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/attica5
         WEB_SITE=https://projects.kde.org/projects/frameworks/
       LICENSE[0]=LGPL
