@@ -1,6 +1,6 @@
            SPELL=kauth
          VERSION=4.96.0
-     SOURCE_HASH=sha512:
+     SOURCE_HASH=sha512:203160f9cf2bc76f85f13f3cc4af36b8e99e28d03af4fbdeb9ecbf8334ff993fecbcddd12b8279e3c7e1778efda471f61a106ba7e590f9eacdb3e153db366e7e
           SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
