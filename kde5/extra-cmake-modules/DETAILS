@@ -1,8 +1,8 @@
            SPELL=extra-cmake-modules
-         VERSION=0.0.9
-              VX=4.95.0
+         VERSION=0.0.10
+              VX=4.96.0
+     SOURCE_HASH=sha512:84a5e3930ee1900ae763acb26f35bb8b47bff10242c969e0c0a2db979e82c28fe0ebc11124b5b85309f372ebc8081f4de56d0b04153452415da8c427e2195347
           SOURCE=$SPELL-$VERSION.tar.xz
-     SOURCE_HASH=sha512:94bdaae8c3a67e00ac08dadd6cdefe4ebc33cdb3478c9cfd5cd8fee8e92b4696698e2dcead2428282bf0a0d3763ba0526968e08d3619208c68b5630cf357dbff
       SOURCE_URL=$KDE_URL/unstable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/extra-cmake-modules
