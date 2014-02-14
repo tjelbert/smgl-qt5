@@ -1,3 +1,6 @@
+2014-02-14 Treeve Jelbert <treeve@sourcemage.org>
+	* qt5-extras/pyqt5: added
+
 2014-02-06 Treeve Jelbert <treeve@sourcemage.org>
 	* qt5/qbs: deleted, it belongs in main grimoire
 	* kf5-t1/attica5: added
