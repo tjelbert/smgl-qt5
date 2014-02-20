@@ -2,7 +2,6 @@ depends cmake  &&
 depends extra-cmake-modules &&
 depends karchive    &&
 depends kbookmarks  &&
-#depends kde4support &&
 depends kguiaddons  &&
 depends ki18n       &&
 depends kiconthemes &&
@@ -11,7 +10,7 @@ depends kjs         &&
 depends kparts      &&
 depends knotifications &&
 depends ktextwidgets &&
-depends kwallet-framework &&
+depends kwallet5    &&
 depends kwidgetsaddons &&
 depends kwindowsystem  &&
 depends kxmlgui     &&

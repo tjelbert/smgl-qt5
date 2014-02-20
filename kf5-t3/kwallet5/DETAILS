@@ -1,4 +1,4 @@
-           SPELL=kwallet
+           SPELL=kwallet5
           SPELLX=kwallet-framework
          VERSION=4.96.0
      SOURCE_HASH=sha512:5cffbf262a6a570b08e0a22b125769d18655798863af28abf4c28e6d9370c113842fdaf551053c1d12519013dfc04cc651dd2b16712b52bd4253e74712430bea

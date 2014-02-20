@@ -11,7 +11,7 @@ depends qttools  &&
 depends qtx11extras   &&
 depends qtdeclarative &&
 
-depends kf5umbrella &&
+depends kactivities5 &&
 depends karchive  &&
 depends kauth     &&
 depends kcrash    &&
@@ -29,10 +29,9 @@ depends kitemmodels &&
 depends kparts    &&
 depends kservice  &&
 depends kunitconversion &&
-depends threadweaver  &&
-depends kwallet-framework &&
+depends kwallet5      &&
 depends kwindowsystem &&
-depends kactivities5 &&
+depends threadweaver  &&
 optional_depends solid   '' '-DPLASMA_NO_SOLID=1' 'hardware detection' &&
 optional_depends openssl '' '-DCMAKE_DISABLE_FIND_PACKAGE_OpenSSL=1' 'secure communications'
 #optional_depends gettext '' '-DCMAKE_DISABLE_FIND_PACKAGE_Libintl=1' 'Multiple language support'
