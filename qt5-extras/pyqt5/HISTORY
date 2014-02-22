@@ -1,4 +1,8 @@
-2014-02-113 Treeve Jelbert <treeve@sourcemage.org>
+2014-02-22 Treeve Jelbert <treeve@sourcemage.org>
+	* BUILD: support multiple make jobs
+	* DEPENDS: add dbus-python
+
+2014-02-13 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.2
 	  spell created , based on pyqt4
 
