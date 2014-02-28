@@ -1,6 +1,0 @@
-depends cmake  &&
-depends extra-cmake-modules &&
-depends ki18n  &&
-depends kparts &&
-depends kservice &&
-depends qtbase 
