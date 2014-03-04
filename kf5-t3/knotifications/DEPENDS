@@ -1,5 +1,11 @@
 depends cmake  &&
 depends extra-cmake-modules &&
+depends kcodecs  &&
+depends kconfig  &&
+depends kcoreaddons &&
+depends kiconthemes &&
+depends kservice &&
 depends kwindowsystem &&
-depends qtbase &&
+depends phonon4qt5  &&
+depends qtbase   &&
 optional_depends libdbusmenu-qt5 '' '' 'DBusMenu protocol'
