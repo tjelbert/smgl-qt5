@@ -4,6 +4,6 @@ depends kcoreaddons  &&
 depends kio      &&
 depends knotifications &&
 depends kparts   &&
-depends kwallet-framework &
+depends kwallet5 &
 depends qtbase   &&
 depends qtwebkit
