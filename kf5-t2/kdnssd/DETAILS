@@ -1,10 +1,10 @@
-           SPELL=kdnssd-framework
+           SPELL=kdnssd
          VERSION=4.97.0
      SOURCE_HASH=sha512:d370f7eea0923e12de87a35c358670baebe9b376eb7cd8f7d4a8fd319e32f6ef576fd6ecb9cb5bcfca05f8b9249e74ad67e66424f4703c3bf24d84d25a1ca8c5
           SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=https://projects.kde.org/projects/frameworks/kdnssd-framework
+        WEB_SITE=https://projects.kde.org/projects/frameworks/kdnssd
        LICENSE[0]=GPL
          ENTERED=20130921
         KEYWORDS="KDE5"

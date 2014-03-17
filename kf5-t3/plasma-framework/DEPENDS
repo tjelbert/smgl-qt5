@@ -18,7 +18,7 @@ depends kcrash    &&
 depends kcoreaddons &&
 depends kdbusaddons &&
 depends kdeclarative &&
-depends kdnssd-framework &&
+depends kdnssd       &&
 depends kglobalaccel &&
 depends kguiaddons   &&
 depends ki18n        &&
