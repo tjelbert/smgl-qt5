@@ -1,3 +1,6 @@
+2014-03-17 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 5.2.1
+
 2014-02-22 Treeve Jelbert <treeve@sourcemage.org>
 	* BUILD: support multiple make jobs
 	* DEPENDS: add dbus-python
