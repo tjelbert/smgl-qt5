@@ -1,6 +1,5 @@
 KF5=kde5
 persistent_add KF5
-#export XDG_DATA_DIRS=$KF5DIR/share:/usr/share
 . $GRIMOIRE/KDE_FUNCTIONS
 
 # this is temporarily inactive, as it would overwrite the kde4 dbus stuff
