@@ -1,0 +1,24 @@
+KF5=kde5
+persistent_add KF5
+. $GRIMOIRE/KDE_FUNCTIONS
+
+# this is temporarily inactive, as it would overwrite the kde4 dbus stuff
+function dbus_install() {
+  # make sure that KF5 spells install their D-Bus
+  # service files into the system D-Bus service dir
+
+  local dir1 dir2  &&
+
+  dir1=$(pkg-config --variable=session_bus_services_dir dbus-1 \
+         | cut -d/ -f-4)                     &&
+  dir2=$(echo $dir1 | cut -d/ -f3-)          &&
+
+  if [[ "$KF5DIR" != "$INSTALL_ROOT/usr" ]]  &&
+     [[ ! -s "$KF5DIR/$dir2" ]]; then
+    mkdir -p "$KF5DIR/share"     &&
+    ln -sf "$INSTALL_ROOT/$dir1"  \
+           "$KF5DIR/share"
+  fi  &&
+
+ cmake_install
+}
