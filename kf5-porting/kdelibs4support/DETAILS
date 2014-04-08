@@ -1,10 +1,10 @@
-           SPELL=kde4support
+           SPELL=kdelibs4support
          VERSION=4.97.0
      SOURCE_HASH=sha512:cb56382d4523959cd791b1010a1cb31e135f18a2def04c0807c3ca0c62ffeff1279c2a43eecc37b3a3c137aab47476a00618f0ba957f9acbeae14f4d14f6b0a3
           SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=https://projects.kde.org/projects/frameworks/kde4support
+        WEB_SITE=https://projects.kde.org/projects/frameworks/$SPELL
        LICENSE[0]=GPL
          ENTERED=20121202
         KEYWORDS="KDE5"
