@@ -104,7 +104,6 @@ function cmake_install() {
   fi
 }
 
-
 function qt5_cmake_build() {
   PATH="$QT5DIR/bin/:$PATH"
   export PKG_CONFIG_PATH="$QT5DIR/lib/pkgconfig"
