@@ -1,6 +1,0 @@
-depends cmake  &&
-depends extra-cmake-modules &&
-depends kio    &&
-depends ki18n  &&
-depends qtbase &&
-depends phonon4qt5
