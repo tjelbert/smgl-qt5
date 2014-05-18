@@ -1,0 +1,15 @@
+           SPELL=libkscreen2
+         VERSION=1.71
+              VX=4.96.0
+     SOURCE_HASH=sha512:f390e83337d43e0b446ced1ce7b7eef21731ed7a8300d14df7461df96b4df1334071f47817844b706e8e7b9dc996b5849e1e84ad485ebc958a33e27e50049e35
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/plasma/$VX/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/frameworks/libkscreen2
+        WEB_SITE=https://projects.kde.org/projects/frameworks/
+         ENTERED=20140429
+      LICENSE[0]=GPL
+        KEYWORDS="kf5"
+           SHORT=""
+cat << EOF
+EOF
