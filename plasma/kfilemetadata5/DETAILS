@@ -1,11 +1,11 @@
            SPELL=kfilemetadata5
+          SPELLX=${SPELL//5}
          VERSION=4.96.0
-     SOURCE_HASH=sha512:
-          SOURCE=$SPELL-$VERSION.tar.xz
+     SOURCE_HASH=sha512:1d14a9ae1166f2d306bec7af261b58cbc2f9071e5480f6adf9eaae94bd75405e71eb8121dc2cc8d5dad2f15762a82d4ca239230f661ff415a618e89915b9f1d7
+          SOURCE=$SPELLX-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
-        WEB_SITE=https://projects.kde.org/projects/frameworks/kfilemetadata5
-        WEB_SITE=https://projects.kde.org/projects/frameworks/
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/frameworks/kfilemetadata
       LICENSE[0]=LGPL
          ENTERED=20131217
         KEYWORDS="search engine"
