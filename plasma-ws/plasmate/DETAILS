@@ -1,0 +1,16 @@
+           SPELL=plasmate
+         VERSION=4.96.0
+     SOURCE_HASH=sha512:
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/frameworks/plasmate
+        WEB_SITE=https://projects.kde.org/projects/frameworks/
+         ENTERED=20130205
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="Plasma library for KDE"
+cat << EOF
+Plasma library for KDE
+EOF

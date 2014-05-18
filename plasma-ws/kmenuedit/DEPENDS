@@ -1,0 +1,16 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS
+
+depends kcmutils    &&
+depends kdbusaddons &&
+depends kdelibs4support &&
+#depends khotkeys    &&
+depends ki18n       &&
+depends kiconthemes &&
+depends kinit       &&
+depends kio         &&
+depends kwindowsystem   &&
+depends kxmlgui     &&
+depends plasma-framework &&
+#depends solid  &&
+depends sonnet
+

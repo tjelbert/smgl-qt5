@@ -1,0 +1,4 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS
+
+depends kdelibs4support &&
+depends kpty

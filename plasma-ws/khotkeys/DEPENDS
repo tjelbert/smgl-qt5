@@ -1,0 +1,12 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS
+
+depends kcmutils    &&
+depends kdbusaddons &&
+depends kdelibs4support &&
+depends kglobalaccel &&
+depends ki18n   &&
+depends kio     &&
+depends kxmlgui &&
+depends plasma-framework &&
+depends plasma-workspace &&
+depends libx11

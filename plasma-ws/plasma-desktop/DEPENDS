@@ -1,0 +1,29 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS
+
+depends qtdeclarative &&
+depends qtsvg       &&
+depends attica5     &&
+depends kcoreaddons &&
+depends kdelibs4support &&
+depends kdesu       &&
+depends kdoctools   &&
+depends ki18n       &&
+depends kio         &&
+depends knewstuff   &&
+depends knotifyconfig &&
+depends krunner     &&
+depends kservice    &&
+depends kwin        &&
+depends kwindowsystem    &&
+depends plasma-framework &&
+depends plasma-workspace &&
+depends solid       &&
+depends libx11      &&
+depends libxcb      &&
+depends libxdmcp    &&
+depends xcb-util-wm &&
+optional_depends kactivities5 '' '' 'Activities support' &&
+optional_depends fontconfig  '' '' 'build font configuration tools' &&
+optional_depends freetype2   '' '' 'anti-aliasing of fonts'     &&
+optional_depends libusb      '' '' 'support USB devices'
+#qimageblitz5

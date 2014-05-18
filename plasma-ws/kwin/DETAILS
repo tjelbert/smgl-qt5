@@ -1,0 +1,14 @@
+           SPELL=kwin
+         VERSION=4.96.0
+     SOURCE_HASH=sha512:
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/frameworks/kwin
+       LICENSE[0]=GPL
+         ENTERED=20140318
+        KEYWORDS="KDE5"
+           SHORT="window manager for KDE5"
+cat << EOF
+window manager for KDE5
+EOF

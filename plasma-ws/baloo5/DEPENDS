@@ -1,0 +1,6 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS  &&
+#depends akonadi5 &&
+#depends kdepimlibs5 &&
+depends kfilemetadata5 &&
+depends attr  &&
+depends xapian-core

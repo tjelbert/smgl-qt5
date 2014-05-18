@@ -1,0 +1,34 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS
+
+depends qtscript      &&
+depends qttools       &&
+
+depends kcmutils    &&
+depends kcompletion &&
+depends kconfig     &&
+depends kconfigwidgets &&
+depends kcoreaddons &&
+depends kcrash      &&
+depends kglobalaccel &&
+depends ki18n       &&
+depends kio         &&
+depends knewstuff   &&
+depends knotifications &&
+depends kservice    &&
+depends kwidgetsaddons  &&
+depends kwindowsystem   &&
+depends kxmlgui     &&
+depends plasma-framework &&
+
+depends pkgconfig     &&
+depends libx11        &&
+depends libxcb        &&
+depends libxdmcp      &&
+depends xcb-util-wm   &&
+depends OPENGL        &&
+
+optional_depends kactivities5 '' '' 'Activities support' &&
+optional_depends wayland      '' '' 'Wayland support' &&
+if is_depends_enabled $SPELL wayland;then
+  depends libxkbcommon
+fi

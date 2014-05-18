@@ -1,0 +1,14 @@
+           SPELL=plasma-mediacenter
+         VERSION=4.96.0
+     SOURCE_HASH=sha512:
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/frameworks/plasma-mediacenter
+       LICENSE[0]=GPL
+         ENTERED=20140403
+        KEYWORDS="KDE5"
+           SHORT="Media Centre for Plasma Desktop"
+cat << EOF
+Media Centre for Plasma Desktop
+EOF

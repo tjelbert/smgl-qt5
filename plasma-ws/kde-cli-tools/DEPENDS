@@ -1,0 +1,6 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS  &&
+depends kconfig  &&
+depends kcmutils &&
+depends kdelibs4support &&
+depends kdesu  &&
+depends qtsvg

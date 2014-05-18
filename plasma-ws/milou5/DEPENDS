@@ -1,0 +1,12 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS
+depends qtdeclarative &&
+depends qtmultimedia  &&
+depends qtscript      &&
+depends qtwebkit      &&
+
+depends kdeclarative  &&
+depends ki18n         &&
+depends kio           &&
+depends plasma-framework &&
+depends krunner       &&
+depends baloo5

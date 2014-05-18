@@ -1,0 +1,22 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS
+depends kactivities5  &&
+depends kauth       &&
+depends kconfig     &&
+depends kdbusaddons &&
+depends kdelibs4support &&
+depends kglobalaccel  &&
+depends ki18n       &&
+depends kidletime   &&
+depends kio         &&
+depends knotifyconfig &&
+depends kwindowsystem &&
+depends plasma-framework &&
+depends plasma-workspace &&
+depends solid       &&
+depends libx11      &&
+depends libxcb      &&
+depends libxdmcp    &&
+depends xcb-util-wm &&
+depends pkgconfig   &&
+depends UDEV
+

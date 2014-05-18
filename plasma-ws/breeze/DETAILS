@@ -1,0 +1,14 @@
+           SPELL=breeze
+         VERSION=4.96.0
+     SOURCE_HASH=sha512:
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/frameworks/breeze
+       LICENSE[0]=GPL
+         ENTERED=20140429
+        KEYWORDS="Plasma"
+           SHORT="Breeze style for Plasma"
+cat << EOF
+Breeze style for Plasma
+EOF

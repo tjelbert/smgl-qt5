@@ -1,0 +1,30 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS
+
+depends qtdeclarative &&
+depends kcmutils     &&
+depends kdelibs4support  &&
+depends kdeclarative &&
+depends kdesu        &&
+depends kdewebkit    &&
+depends kdoctools    &&
+depends plasma-framework &&
+depends kidletime    &&
+depends krunner      &&
+depends kjsembed     &&
+depends knewstuff    &&
+depends knotifyconfig &&
+depends kwallet5     &&
+depends libksysguard &&
+depends threadweaver &&
+depends libx11       &&
+depends libxcb       &&
+depends libxdmcp     &&
+depends xcb-util-wm  &&
+depends libkscreen2  &&
+runtime_depends milou5 &&
+optional_depends boost        '' '' 'for several plasma dataengines' &&
+optional_depends akonadi5     '' '' 'event support in the calendar DataEngine' &&
+optional_depends kxmlrpcclient '' '' 'for several plasma dataengines' &&
+optional_depends libdbusmenu-qt5 '' '' 'notifications by Dbus' &&
+optional_depends qalculate    '' '' 'advanced features of the calculator runner' &&
+optional_depends qimageblitz5 '' '' ''

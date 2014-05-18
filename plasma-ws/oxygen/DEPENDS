@@ -1,0 +1,16 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS
+
+depends kcompletion &&
+depends kconfig     &&
+depends kconfigwidgets &&
+depends kdelibs4support &&
+depends ki18n       &&
+depends frameworkintegration &&
+depends kguiaddons  &&
+depends kwidgetsaddons &&
+depends kwindowsystem  &&
+depends pkgconfig   &&
+depends libx11      &&
+depends libxcb      &&
+depends libxdmcp    &&
+depends xcb-util-wm
