@@ -15,7 +15,6 @@ OPTS="$QT_DEBUG               \
       $QT_TESTS tests         \
       $QT_ACCESS              \
       $QT_AUDIO               \
-      $QT_JVS                 \
       $OPTS"                  &&
 cd $SOURCE_DIRECTORY &&
 

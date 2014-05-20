@@ -1,3 +1,9 @@
+2014-05-20 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 5.3.0
+	* qtbase: update patch
+	* CONFIGURE, BUILD: delete obsolete -javascript-jit switch
+	* DEPENDS: add optional harfbuzz, only support unixodbc
+
 2014-02-07 Treeve Jelbert <treeve@sourcemage.org>
 	* PRE_BUILD: add an entry for qt5 to /etc/ld.so.conf
 
