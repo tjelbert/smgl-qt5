@@ -1,3 +1,6 @@
+2014-05-20 Treeve Jelbert <treeve@sourcemage.org>
+	* DEPENDS: giflib => GIFLIB
+
 2014-03-08 Treeve Jelbert <treeve@sourcemage.org> 
 	* DETAILS: version 4.97.0
 
