@@ -1,3 +1,7 @@
+2014-05-29 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 5.3
+	* DEPENDS: add --no-tools & --no-qml-plugin options
+
 2014-03-17 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.2.1
 
