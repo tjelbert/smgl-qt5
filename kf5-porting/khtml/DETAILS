@@ -1,8 +1,8 @@
            SPELL=khtml
-         VERSION=4.97.0
-     SOURCE_HASH=sha512:4fd28c85204adf4d884a235f436404be39956bf2754ad8d7cf1334b9b17eb0d37f2fb30318afeb903eaba0922e05c0020882f797df4df0918fb89154a2b275d7
+         VERSION=4.100.0
+     SOURCE_HASH=sha512:ed882458135b98eb96ea025e99fc02e70d8ce99ae883190f6df90c9c0107b3bb1aca8fbb48c87daee83b0d3164af8c75f8033cae991493f37a12cdca22e282c5
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/portingAids/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/khtml
        LICENSE[0]=GPL
