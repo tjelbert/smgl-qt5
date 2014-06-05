@@ -1,8 +1,8 @@
            SPELL=kross
-         VERSION=4.97.0
-     SOURCE_HASH=sha512:577c0a3034acdda8fcbdc065567a8990e33e1d2b027180073f63062a5773f33a51a0c8538c6ecd7f280553f2793dd48b5fb40f31f3eac8884ae05e2fc8058736
+         VERSION=4.100.0
+     SOURCE_HASH=sha512:04cfeac6327dbad2a69730a617d0a71ef850bef9ccb0fdbcbd9dc714ce4ddc6423dea5298409576319989fb428ebfbecba8aa020944996260abfc9470bca2d0b
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/portingAids/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kross
        LICENSE[0]=GPL
