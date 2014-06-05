@@ -13,6 +13,7 @@ depends kitemviews  &&
 depends kjobwidgets &&
 depends knotifications &&
 depends kservice    &&
+depends kwallet5    &&
 depends kwidgetsaddons &&
 depends kwindowsystem  &&
 depends kxmlgui  &&
