@@ -5,6 +5,8 @@ QT5DIR="$INSTALL_ROOT/opt/qt5"
 KF5DIR="$QT5DIR"
 SRC=$SOURCE_DIRECTORY
 
+export XDG_DATA_DIRS=$KF5DIR/share:/usr/share
+
 if is_depends_enabled $SPELL python;then
   VV=`installed_version python | cut -c-3` &&
   PYTHON2=/usr/bin/python${VV}
@@ -26,7 +28,6 @@ function default_pre_build () {
 
 #---------------------------------------------------------------------
 function kde5_build() {
-  export XDG_DATA_DIRS=$KF5DIR/share:/usr/share
   OPTS+=" -DCMAKE_BUILD_TYPE=$KDE_BUILD_TYPE \
           -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=1 -Wno-dev"
   qt5_cmake_build
@@ -90,7 +91,8 @@ function cmake_build() {
         -DCMAKE_INSTALL_LIBDIR=lib \
         -DCMAKE_INSTALL_MANDIR=share/man \
         -DCMAKE_PREFIX_PATH=share/apps/cmake/modules \
-        -DSYSCONFDIR=$INSTALL_ROOT/etc \
+        -DCMAKE_INSTALL_SYSCONFDIR=$INSTALL_ROOT/etc \
+        -DCMAKE_INSTALL_LOCALSTATEDIR=$INSTALL_ROOT/var \
         -DCMAKE_BUILD_TYPE=Release \
         $OPTS $SRC &&
   $MAKE
