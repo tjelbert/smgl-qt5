@@ -1,1 +1,3 @@
+KF5=kde5
+persistent_add KF5
 . $GRIMOIRE/KDE_FUNCTIONS
