@@ -1,0 +1,7 @@
+2014-06-11  Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 4.100.0
+
+2014-02-10 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version master
+	  krunner has been split out of plasma
+
