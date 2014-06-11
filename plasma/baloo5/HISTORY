@@ -1,5 +1,6 @@
 2014-06-06 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 4.97.0
+	* DEPENDS: add krunner
 
 2014-05-18  Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 4.96.0
