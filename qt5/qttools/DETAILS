@@ -1,8 +1,8 @@
 QT_URL=http://download.qt-project.org/official_releases/
            SPELL=qttools
           SPELLX=$SPELL-opensource-src
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:f52a10fc96ca3ea71800cbdb10b8166e819fd4008f1dfec984ea437b626240b2a32fa32ab7b60561acf785996d01bf5d0c5659e05bac3f6e05c7a34da06de63c
+         VERSION=5.3.1
+     SOURCE_HASH=sha512:d8097b055c88e8f8cfa2a6c2c973d13827352e3298395b5a2c2d16204a92e5770fbc3ab2325575a80a676016ce699bddfec3616a21ecc1320b1e1ad60eabec93
           SOURCE=$SPELLX-$VERSION.tar.xz
       SOURCE_URL=$QT_URL/qt/${VERSION%.?}/$VERSION/submodules/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
