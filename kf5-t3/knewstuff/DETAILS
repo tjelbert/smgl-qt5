@@ -1,8 +1,8 @@
            SPELL=knewstuff
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:912b942bd4eb987900dfe99a8cf87cf2feef58b7ab210b7d6dafb52eaf37f9299ec3fd82fdfce2b485c45b4d7395094df1a7aee60bbc6e7b7a5cd2f8774469d0
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:6b6cc6b54f43be74bea63641eb9cd568f8f6303b19b4c63c499aba19c9214df7f949542b6e673a77b66595a6c1cebd4a7a1a662be26d6dbab358ac5189c7c01d
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/knewstuff
        LICENSE[0]=GPL
