@@ -1,8 +1,8 @@
            SPELL=ktexteditor
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:609a39aace6573db19bffeb6d161359295f25dc9ae475345bbf9ec9c42b9ca0eb68cc8bab7998b3d00652cd690d4ea2d76cee9c2adf0376b0909d25f3a031885
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:1631d0bf02318c5ff2a4f634a5d53ae6c24641ad4eb18548aece6e2385fa9e6cd42290cc75719e98a2555e3e3f3fb62f54bcf87179e8bb9ead9dcc3ade3ea1ee
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/ktexteditor
         WEB_SITE=https://projects.kde.org/projects/frameworks/
