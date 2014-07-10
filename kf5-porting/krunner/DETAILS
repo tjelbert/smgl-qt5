@@ -1,8 +1,8 @@
            SPELL=krunner
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:07334c87d69fc804e8961507a0354d81eb5fad376233fe9eb1f7e9a8cce1af927341af3f0bc734630ef1b788094c63b10433e8aff941da62c00892524e865121
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:93c9482ea9338ebfceb600fea8295f2b919e9e3a1e648e58359acbe2a449794819c038ab1eaf85bf2df66501fc7524e424b6c16fc59241e1559ea433dbad999d
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/portingAids/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/portingAids/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/krunner
         WEB_SITE=https://projects.kde.org/projects/frameworks/
