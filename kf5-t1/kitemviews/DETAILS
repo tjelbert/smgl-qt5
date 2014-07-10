@@ -1,8 +1,8 @@
            SPELL=kitemviews
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:1d2071a5275c28ccb853bf7ef492b6cf0d4897dad1adf531baa38c4035b4f9d746a9f05c358ebbaee07ff9434eb3d2be0c7697664d5abe5d3949a8bf9d35f47b
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:213c65152a2a93409caabd3de0e7c3d9109bf41813facdc65dcf98cb7c0f3a5e21246caedecb9a6907f9b45ad056b9313f2b6230f2913ff90302cce4cc6b8540
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kitemviews
        LICENSE[0]=GPL
