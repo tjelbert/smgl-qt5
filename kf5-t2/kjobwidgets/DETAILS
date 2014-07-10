@@ -1,8 +1,8 @@
            SPELL=kjobwidgets
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:b84d8d8af64864976064f785779bb6cc47ae005dfe23d7d3df378992531bcb6191618aea58aa029a4dfec06f073e3007edddcc17bceb02640cd0d7ed882ba35f
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:1d0d06134110199de289ddcc736f7205128fb19f0562e819aa5b76b16c966ddcb0dc1b92920153a5c497cbae4f34e2dbabd9ff813bb4225eabe0625b5cf8b8d0
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kjobwidgets
        LICENSE[0]=GPL
