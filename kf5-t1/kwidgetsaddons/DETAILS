@@ -1,8 +1,8 @@
            SPELL=kwidgetsaddons
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:fd96360774520f06d725049ac88df1b7ef8dabd87799341e4b3c555d0cc9c841ddc7593f8a0f2551f84f5f49c1e68966c30704fa709c353d89fa3b7be4791344
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:669e092f19c6d4058485f2ff46e1d53ebc9f7fd72fe7eea9ce1e9c131faaffb6e85393802ab36bd3cff6cda15d9bdde87aabfca54441ead524fc86f88bd6b60a
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kwidgetsaddons
        LICENSE[0]=GPL
