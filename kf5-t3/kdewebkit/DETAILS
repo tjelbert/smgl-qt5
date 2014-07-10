@@ -1,8 +1,8 @@
            SPELL=kdewebkit
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:1019cee82c5c3dcbad31d10144d419d10aaebc7b76828c9ba967769eb6cad7b49c8c97c977bfe5d0eb23d0cbb8d147c686dbfd45cb93df8b1ec372a2968af88e
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:79502210f614e896d83e710f5c56de6be8840e3085121cf5ddc61c5cd21400950aac382532abf26d92ca4f949540c7a797c28e0b8f87678b561d9e5ac8dd30ec
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kdewebkit
        LICENSE[0]=GPL
