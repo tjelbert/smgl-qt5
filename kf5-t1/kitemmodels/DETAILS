@@ -1,8 +1,8 @@
            SPELL=kitemmodels
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:0850e586460f8a48422332c0346219aefaea6be7c7df1d962af7410f1dff680df9aae2f25d8335515703bbfd4cc372e40187e4d81215fbcae816687620b6af3e
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:e990833225ba22e784d55db78467a9bdb75b4b0ff23364bac7f6f20a3a6b300de33338c3438e6d76655ae753e7651f73ac4928b289fb2e6b5b3200e0fe01a957
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kitemmodels
        LICENSE[0]=GPL
