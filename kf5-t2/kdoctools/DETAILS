@@ -1,8 +1,8 @@
            SPELL=kdoctools
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:afa017d2cbe0631fbfc71da33551f64dc80578be18ac0814d1f676fb9f62acc85439d4686da6e270a1be3d5c810a4a7021e5f675c750101e76680c7843fd8851
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:6605d93a29adfa3b61921b373f28cbbb01e2f5bad6b78a0501c271c9646084d8a1fd35e0ae03b841f68bec51a2078e84e25736e6279bc05837976f860fbe1587
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kdoctools
        LICENSE[0]=GPL
