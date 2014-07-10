@@ -1,8 +1,8 @@
            SPELL=sonnet
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:3837592797cce20d0c127fae1c01d9cc91ecd33d060ae143d169a2df6c7463878d25e8fd01e80f0732b519e79a4a39a2272748b16ff7c843aaa877bef9be210f
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:c7bd1396f625e9e16ea2e4283ed9955370102392e448d64d7629e67c8b0fe01ae0d60c2a2b6cbc18027cda2b43c9e580beb69c318da70e1f877692fed205cb26
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/sonnet
        LICENSE[0]=GPL
@@ -12,5 +12,5 @@ SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
 cat << EOF
 Sonnet provides spell-checking capabilities to applications. 
 Sonnet uses plugins for the actual spell-checking, and provides a Qt-style abstraction on top of 
-these. Available backends include aspell, enchant, hspell and hunspell.
+these. Available backends include aspell, enchant, hspell and hspell.
 EOF
