@@ -1,8 +1,8 @@
            SPELL=kguiaddons
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:eae772e89326dc5f639d80d5ffa40e23515261d71ff37593477a59359f061fb74a52617b1b515d6755e7cc57389f3620d0bdc60f6f502ef33c3aea2fa6994425
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:181c14fef7198d405de779c6b3b96a5ca596b9ac248d21700bd08cf7aba440be6c5554263e41cea25fc89c9c2342c7011c53d48b812c473e566f134b80de5b7e
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kguiaddons
        LICENSE[0]=GPL
