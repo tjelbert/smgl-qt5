@@ -1,8 +1,8 @@
            SPELL=knotifications
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:8d895ccbc5d9061f85c612f331e87268421763d569a19bb2795f578a72eacbf6984c30a5371a89ad4368e51ddccf9ec47834b179fb2d59654791a281b3bf05c1
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:3670aa2ce2b5fdc1d4971c37a44a65345a9fdda4ffd753b7c2f89b5c62b990028a993fb24663e720d16df5ea34760428891ad2b3a126de73ca20c335e1a03519
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/knotifications
        LICENSE[0]=GPL
