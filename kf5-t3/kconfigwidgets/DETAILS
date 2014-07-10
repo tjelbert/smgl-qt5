@@ -1,8 +1,8 @@
            SPELL=kconfigwidgets
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:a98ed55a5d10de07820a20bd4f5b7461f9acaccf4a6932584da4c36fdfcbf0831c2d0f46a3d6ba2aa8f4ac0a93342612570e194f1299e7ae6c2762bd9bf4042a
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:09ed43cf5c9e579005c7f27b1125d4b5264d2360458edfaca1b0a5e57604d3167d8a105592827145b397e6a7ac8122b9f12d0747b485f1b6164dcfa2fe8497b4
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kconfigwidgets
        LICENSE[0]=GPL
