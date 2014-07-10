@@ -1,8 +1,8 @@
            SPELL=kdesignerplugin
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:2a38c57869595c33af26ab47cb81a34fed2ffd762fed87a048cefd844db2edac2279cc9ef553fc10479219d0b2112e9a4ea120e5f8eede773f68c4ad791b4d73
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:f4515007372b6a00114eb3a310e045d699f7660cd9c514197ed907f838d52f3548c05b37d070e221f5ec65c8506918cfb9314933588c72ac32080ad136311b65
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kdesignerplugin
        LICENSE[0]=GPL
