@@ -1,9 +1,9 @@
            SPELL=kwallet5
           SPELLX=kwallet
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:dc8d7f3c4542ed51f69c061738fa3d4d34991582154b3526cc0d3c5df4647a2e7cfc74ad1c72199aabc26736a3b912fefc90584790e6506c5277cf3e86c46fe4
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:e71cc54dcb83fd5b13eefaf6fc922db8902407e90a9378e0b11e59c8e421092ec674ddac0c02ae2d504725e61ac3b97f3818d206be040fd2f6bdda28d09f5943
           SOURCE=$SPELLX-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kwallet
        LICENSE[0]=GPL
