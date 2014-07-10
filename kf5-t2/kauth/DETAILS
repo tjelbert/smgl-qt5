@@ -1,8 +1,8 @@
            SPELL=kauth
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:a56bb461ccbe1c763a1d5c223c747442c4fcdde841bde631333fcea61e988d1939bf8645150f168ba1c9b2666fcc9ba5956466dea726c0bdb4fb03325d54d90f
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:1275f2fec5b6e3e260e688147faa635a8361d701409790025256cc3b1f812ad17a88333b128f8d1285437ccd3cc1c13738fa6eb45a76c76c92aac30c6ffa4a9f
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kauth
        LICENSE[0]=GPL
