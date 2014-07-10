@@ -1,8 +1,8 @@
            SPELL=kjs
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:10b6e9a6e0dfb51707523cc96f58584d6c777a79bd24dd84fdcf4b8a1487821a815e748223327012565a92946b6ce1b0f292ddd56066152a80d0265c14bd7306
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:73999911c249416ba17cb5daf28e7ad3fa88f3ea50cca93db7aef29a175dad8f4d9949c4a3b789fa61cb0521a063d3ad3f501ffa618e8b46724ee102de2788c6
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/portingAids/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/portingAids/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kjs
        LICENSE[0]=GPL
