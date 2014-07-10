@@ -1,8 +1,8 @@
            SPELL=kcodecs
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:71b9302bd50a5343df5d31e7fed281ba6ef6c77daa30b98c4617c12bb1ea724ff4598d06faa11910f2910b46e856d2d0c52a97b8f0ad5906b06c4ddcf720aaff
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:bee7cdf52f4b1ffd80e95f43dd3781ea5b55a40e7e17ad9461a1ae158ed3f9db857f5a23e19d0cdfadec45204ff54eae5808b3657735f94cde7fc793fac05177
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kcodecs
        LICENSE[0]=GPL
