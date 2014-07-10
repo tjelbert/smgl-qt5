@@ -1,8 +1,8 @@
            SPELL=kwindowsystem
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:4b1af375765ec1413afe947618400582c94a6eb031ef780f81bec6182c89a7d11aad7aabf35dcbb4e2dc7e28764a181c6d609a054a06dd11e9321328f1c92e07
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:b71fa74ff9c450d0279ab2104e8a1f345a749818bf8351fe7bb1a64049b05ee458f46ae3104b691a304bdf539bd7f4409d3cd73d1f3cdc378851a9e8f02cfde3
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kwindowsystem
        LICENSE[0]=GPL
