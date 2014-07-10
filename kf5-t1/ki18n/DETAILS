@@ -1,8 +1,8 @@
            SPELL=ki18n
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:ecaea19b8cfe36ba7ecfe6022cc40c987a86ada34ff720093da8432111d0dc4460110a7c4c376c87d910206008537a221c7cdf1d19ce066d04cc4549714f4542
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:00903af04f3ef0b3adfc831350dec1a2583abe9051b5f9de9cda259ea4775edf7d0d876c25666d0446913026f36a24fecfb4e9bf82a5918ef85d8f1d0b1b253a
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/ki18n
        LICENSE[0]=GPL
