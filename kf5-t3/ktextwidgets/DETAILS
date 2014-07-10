@@ -1,8 +1,8 @@
            SPELL=ktextwidgets
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:bd93e522b0aa74b95f09db1551b26ea556bd73def2b6e3aff5aa0a7fa1e0f491da15c9dbc7e7eb0e5c417e1d6745d3a9780466ef8bdef0bb7487052d65496fce
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:ffcc245424f0e1baef9f04bf8b11cb2805820e7c72afcce65d50e5ffd7c2c8490ba8b7f7d89cd2de99a03e2285ba3eca204d0958b8b8b5844d29c51b33a5e475
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/ktextwidgets
        LICENSE[0]=GPL
