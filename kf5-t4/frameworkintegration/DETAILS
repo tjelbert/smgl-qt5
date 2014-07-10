@@ -1,8 +1,8 @@
            SPELL=frameworkintegration
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:bad543d1e4c36e3a8f42435a1e08378fb89b5961fe2000d619a3f4b1b3f78793e2073cd376ccb91cbdde5c9c820567bcbe9a48a64c13a476e76ae1a409f24c9f
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:030a9a5dfff5a5a95bcb46b0ebae9b0a717e3c303b138ea2a45d4517c46d6e5c9a4eb5fbad3f7ab64b25a8d051b906cfed2de5b4df6969eb8cd4635d01676796
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/frameworkintegration
        LICENSE[0]=GPL
