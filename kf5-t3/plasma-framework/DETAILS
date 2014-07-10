@@ -1,8 +1,8 @@
            SPELL=plasma-framework
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:2232919d97bddd08cadb1d040196026073a80551d0fcbb4ba0c094ebaa62f207ebb1e42b3f0d0182a80e9f15e02ed9f0bb8a1b7284d1b8101400ab60096271b9
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:e939408cf85cee8ffe5539f1a5beac98e3f90d16470faba733b6053d75b1ca7174468f4ff65abb018cc1b443e472ee8e0851742fb899cfadc87fb3db6a2f7d67
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/plasma-framework
          ENTERED=20130205
