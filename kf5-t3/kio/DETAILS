@@ -1,8 +1,8 @@
            SPELL=kio
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:0d8e17c41b65de72d62e725520baada23b807202221a12ce940978e9a9b28f6b2811fef8a871fac2a322518405b6accee5933e1ce08c9bd94753634701df1f16
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:7572c1321770548553c948f0a3aa04f6cf7fc6f2813d2db654d7fb30a4105456869d61c1bdc9bf2c01abde2ed1bc4b2ae4f01ea3a648a408a80fafbbe58ea977
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kio
        LICENSE[0]=GPL
