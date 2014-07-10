@@ -1,8 +1,8 @@
            SPELL=kdnssd
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:8a31b80052a91eeeae1c93ad5ea135b938aff13317d62741b7c32c2284a0a6a54aff0b52ad04c9c958b05c48793e5ef381207a4ec1d397a4967981bbc0543e8b
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:ff67eca3c7880cd8ffb8bcd1915ee71a374ea8354145f825be2f22b95b9f361f32225df848714eda5b1e8a1829a7498ec56db065fbbe4e8100b8ea461b6af195
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kdnssd
        LICENSE[0]=GPL
