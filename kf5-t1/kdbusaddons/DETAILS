@@ -1,8 +1,8 @@
            SPELL=kdbusaddons
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:40b1ba9148c1d0953be48738f7f9d4ff1bd954a097b8d6124b6553641e71d6b0da7a57cee496ed6b43dd2fb6743a48e38d6047a9191e30b0c0eed2a78b041cd4
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:019b5f93dc00116d0e322e3e6b55ba6a7bc0aec2b925303d71035680f7632c0526301a1a7bea745f39c9dbcbf9190a4181da46d6a5d389a47c5e0434bb1b4e0c
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kdbusaddons
        LICENSE[0]=GPL
