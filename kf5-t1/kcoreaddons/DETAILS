@@ -1,8 +1,8 @@
            SPELL=kcoreaddons
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:0d8cd668aedad97caf6e143084f9083405171df3ea09d06d5a052e5f78713916defff7c25467aaac3deec4fc7a6bad01e5e64109e1dbaef46e35f6cb0381fa07
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:d8f71e088bb0ddb78edabd77f9cca3f46f7fc70b53cd3af0f6078714af40e29d492c4c3b9a21d01a5c6c94d390b2e28ca72456b065d2e81b4697fe184dfdc7ac
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kcoreaddons
        LICENSE[0]=GPL
