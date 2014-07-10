@@ -1,8 +1,8 @@
            SPELL=kglobalaccel
-         VERSION=4.100.0
-     SOURCE_HASH=sha512:3983f15bed79cfe19c64c09172e055dc20b8b28f2d4296abc630a0e261616150c69f52f00743ab5fa869a5a60a2dd68d549fd41e6756686dbf118726852edec8
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:a82e7f30aecf191d08f4caf13092666ffb8c9c22b3d8ef217e1c25991fc1a2cc15cd1159527c2bc61dfc77c8b7db207ed19a01717319e62443dc2ff05a303942
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kglobalaccel
        LICENSE[0]=GPL
