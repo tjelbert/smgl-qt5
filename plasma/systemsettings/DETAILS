@@ -1,8 +1,8 @@
            SPELL=systemsettings
-         VERSION=4.97.0
-     SOURCE_HASH=sha512:bb79cd526c73a0112630ad32be9afce4d1be96f1b36f54d2fdf71c6e48ddfb9d8db8e8abcad16a7be9051169fb816c28c8184b819586fa5a1a3cd929ab3a708c
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:a7b4bce265e3e894740320d1c31048768c1189eb527c13547bd89d20106d30f7267ca80e756708954832e6c0525f908aeb85dd611a043d4515a57a33e18d1078
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/systemsettings
        LICENSE[0]=GPL
