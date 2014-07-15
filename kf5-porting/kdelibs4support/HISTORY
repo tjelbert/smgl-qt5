@@ -1,3 +1,7 @@
+2014-07-15 Treeve Jelbert <treeve@sourcemage.org> 
+	* DETAILS: PATCHLEVEL=1
+	* PRE_BUILD: added, delete bad FindGettext.cmake
+
 2014-07-10 Treeve Jelbert <treeve@sourcemage.org> 
 	* DETAILS: version 5.0.0
 

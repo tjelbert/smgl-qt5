@@ -1,5 +1,6 @@
            SPELL=kdelibs4support
          VERSION=5.0.0
+      PATCHLEVEL=1
      SOURCE_HASH=sha512:8e2eaf1d55bf3cc85455012ec721b7d8e6a78d223a6f8b0f7567b7af0a479a7ba34383e248ea3cbfc7579a81c5fea46eb236306598d922d6475b0b3a4e84804c
           SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/portingAids/$SOURCE
