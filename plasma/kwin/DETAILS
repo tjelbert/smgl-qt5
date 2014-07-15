@@ -1,8 +1,8 @@
            SPELL=kwin
-         VERSION=4.97.0
-     SOURCE_HASH=sha512:618478bcd2d9b45dfe75dd5110d4c59eebbc8e6b17aa86775f8bfc631d505616c19d843777e487659eed2be5eb176c340ec627cbc0e275b7669dd26ff6fd8503
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:ecdf6ba23da5b8f7bc3546404ec2c169dc79840d21d6a17eb3e8d332aba6d902b5879a5c7e984526ae498f2ad82e1aea8908471231afe3e849d91d664b495ad8
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kwin
        LICENSE[0]=GPL
