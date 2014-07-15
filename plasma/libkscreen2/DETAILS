@@ -1,9 +1,10 @@
            SPELL=libkscreen2
-         VERSION=1.72
-              VX=4.97.0
-     SOURCE_HASH=sha512:d11d8cb4e441c774a5762cd9659eea2cae22b2d0ae669839c4a9d7eab9633ac3974aa8770088f4882c127cb52e5b1d3666937dbc8534a085c223cf1bf4f442d3
-          SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/plasma/$VX/src/$SOURCE
+          SPELLX=${SPELL//2}
+         VERSION=5.0.91
+              VX=5.0.0
+     SOURCE_HASH=sha512:6a99d1eb6cae9d214a699db2f8251fecf5332acbe4dd421ddb85b77d3168c0a380084b26532449fef2a1dab3c1acb882cbb88bed5be88381a3e78b75d6466cf0
+          SOURCE=$SPELLX-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/plasma/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/${SPELL//2}-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/libkscreen2
          ENTERED=20140429
