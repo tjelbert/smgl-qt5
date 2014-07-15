@@ -1,8 +1,8 @@
            SPELL=powerdevil
-         VERSION=4.97.0
-     SOURCE_HASH=sha512:f340844112457833ad3ae8092c6faf8d4dc67e5bc6685c2dad12e499de994b6b6c9f0580daf1ce6f4ecd2550302c6412c7172b191ee09d8482bd29a34805b21d
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:4827dbcbeefcbfaf45042272d9762b43ab99a92edd62d80da4bb2d6c9d4f7eb376680226d817ca5d75760def0229660480843cb3b6300bc468b62a08e3b6a4d2
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/powerdevil
        LICENSE[0]=GPL
