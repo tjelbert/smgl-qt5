@@ -1,8 +1,8 @@
            SPELL=kinfocenter
-         VERSION=4.97.0
-     SOURCE_HASH=sha512:0c8bb8ee527f725026bb1a6e8d79be551c6361c7a9bdcf30dfadd954a60c4413077704b1240530ae6bc2494b5d6c110d68f3892ab633c5e14c5020e69e8d5f5f
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:38f4e74ff3cbb63a7e58ebf71f22442941c8a727ca6b3c54f828c14e162483c28cce85e9937aec68a75590a707519775c5084c5f8179ced8069794672b2f321a
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kinfocenter
        LICENSE[0]=GPL
