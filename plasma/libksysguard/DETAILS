@@ -1,8 +1,8 @@
            SPELL=libksysguard
-         VERSION=4.97.0
-     SOURCE_HASH=sha512:cd3381597918a570a7100a7d2c32d0c240496d735d3e8e2e0bc162bc106b6cac16643d30f5108ee77e421a5955af3f6d8a8aa34b8accdc941a9add0313cad987
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:e77d0c9c4dd5348a9290da5adf8a32157a58f40484ebb6d082cab267b454a86fbe4b133ac9ada33457612ceaeb0fe1bda8ae2dc0d27e99a89ef6e50b3b4c3e47
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/libksysguard
        LICENSE[0]=GPL
