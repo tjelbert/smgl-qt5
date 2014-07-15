@@ -1,8 +1,8 @@
            SPELL=breeze
-         VERSION=4.97.0
-     SOURCE_HASH=sha512:4d61eecce3f08c003b629717a7ebc2ba55d04e62f518beab2c0706f99d9ef4da3003138e91af6fc5edd94b1f0af58cf19854b6d4bf8c8b50b99af58e2e8ff5f0
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:f8b3389ac8eba92e298e10efa0c9451074332b02877b22294d13c27a563a80fb73995ecaeeaece77c5a21c23fdb95d905e5308d952d564e718b54860bf325f1f
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/breeze
        LICENSE[0]=GPL
