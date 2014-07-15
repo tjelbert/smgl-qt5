@@ -1,8 +1,8 @@
            SPELL=kde-cli-tools
-         VERSION=4.97.0
-     SOURCE_HASH=sha512:4920fef4ea8ab14e29871b1c4c4f0713a222305c5725f970f60ba39451ac7051758a20cddda8db17f619f2fa85a431bc3d981ad1dcd3f323abc65973bc715c51
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:66babb4d1a6604ed414046255ed61f4fc51cebff7c50d7c07806930852171cc6cb192d4e68d6e6a0e90678b6ce81f6d5ed2c85e011a73362a4a7ae120bbfd5db
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kde-cli-tools
         WEB_SITE=https://projects.kde.org/projects/frameworks/
