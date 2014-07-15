@@ -1,8 +1,8 @@
            SPELL=oxygen
-         VERSION=4.97.0
-     SOURCE_HASH=sha512:faeb2892a202ccfa59f96d29cbfce3e83b1be4ecbf2d8af1f8dfcded3608ec34c9889c86253da40d47ffc0a480b14ff2a481055bc404c866b2b31bebe9804fae
+         VERSION=5.0.0
+     SOURCE_HASH=sha512:95f71421c22dbe19301883b00952ea73ecba62e3d079bd3e3904357a906de8c99c306956ff6c4d25a2f089552e6b93981634cb636ba1efc29cf891b26291e049
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/plasma/$VERSION/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/oxygen
        LICENSE[0]=GPL
