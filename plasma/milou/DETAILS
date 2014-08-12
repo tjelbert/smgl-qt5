@@ -1,5 +1,4 @@
-           SPELL=milou5
-          SPELLX=${SPELL//5}
+           SPELL=milou
          VERSION=5.0.0
      SOURCE_HASH=sha512:95f9bae961f293e96a89df15719d92e7eb8e8120d880092f7237e3da29da68e02139c21e2f58df075ffeed462fb71ffb280583df87f7189708d3e6b83c486ee3
           SOURCE=$SPELLX-$VERSION.tar.xz

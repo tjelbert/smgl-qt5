@@ -21,7 +21,7 @@ depends libxcb       &&
 depends libxdmcp     &&
 depends xcb-util-wm  &&
 depends libkscreen2  &&
-runtime_depends milou5 &&
+runtime_depends milou &&
 optional_depends boost        '' '' 'for several plasma dataengines' &&
 optional_depends akonadi5     '' '' 'event support in the calendar DataEngine' &&
 optional_depends kxmlrpcclient '' '' 'for several plasma dataengines' &&
