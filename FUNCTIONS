@@ -28,8 +28,7 @@ function default_pre_build () {
 
 #---------------------------------------------------------------------
 function kde5_build() {
-  OPTS+=" -DCMAKE_BUILD_TYPE=$KDE_BUILD_TYPE \
-          -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=1 -Wno-dev"
+  OPTS+=" -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=1 -Wno-dev"
   qt5_cmake_build
 }
 
@@ -93,7 +92,7 @@ function cmake_build() {
         -DCMAKE_PREFIX_PATH=share/apps/cmake/modules \
         -DCMAKE_INSTALL_SYSCONFDIR=$INSTALL_ROOT/etc \
         -DCMAKE_INSTALL_LOCALSTATEDIR=$INSTALL_ROOT/var \
-        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_BUILD_TYPE=$CM_BUILD_TYPE \
         $OPTS $SRC &&
   $MAKE
 }

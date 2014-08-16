@@ -1,2 +1,1 @@
-source $GRIMOIRE/KDE_CONFIGURE
-config_query KAMD 'build daemon' n
+source $GRIMOIRE/CMAKE_CONFIGURE

@@ -1,0 +1,1 @@
+config_query_list  CM_BUILD_TYPE  'which build type?' Release Debug RelWithDebInfo
