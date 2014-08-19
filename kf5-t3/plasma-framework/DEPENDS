@@ -33,6 +33,6 @@ depends kwallet5      &&
 depends kwindowsystem &&
 depends threadweaver  &&
 optional_depends solid   '' '-DPLASMA_NO_SOLID=1' 'hardware detection' &&
-optional_depends openssl '' '-DCMAKE_DISABLE_FIND_PACKAGE_OpenSSL=1' 'secure communications'
+optional_depends SSL '' '-DCMAKE_DISABLE_FIND_PACKAGE_OpenSSL=1' 'secure communications'
 #optional_depends gettext '' '-DCMAKE_DISABLE_FIND_PACKAGE_Libintl=1' 'Multiple language support'
 #optional_depends qca2    '' '-DCMAKE_DISABLE_FIND_PACKAGE_QCA2=1' 'remote plasma widgets'
