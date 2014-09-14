@@ -9,4 +9,5 @@ depends kjobwidgets &&
 depends kparts  &&
 depends kxmlgui &&
 depends sonnet  &&
-depends qtbase 
+depends qtbase  &&
+optional_depends libgit2 '' '' 'manipulate git repositories'
