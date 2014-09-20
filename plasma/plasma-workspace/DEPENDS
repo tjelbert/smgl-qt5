@@ -1,6 +1,7 @@
 source  $SECTION_DIRECTORY/KDE_DEPENDS
 
 depends qtdeclarative &&
+depends qtsvg        &&
 depends kcmutils     &&
 depends kdelibs4support  &&
 depends kdeclarative &&
@@ -16,15 +17,22 @@ depends knotifyconfig &&
 depends kwallet5     &&
 depends libksysguard &&
 depends threadweaver &&
+depends kwin         &&
 depends libx11       &&
 depends libxcb       &&
 depends libxdmcp     &&
 depends xcb-util-wm  &&
 depends libkscreen2  &&
 runtime_depends milou &&
+runtime_depends mkfontdir &&
+runtime_depends xprop     &&
+runtime_depends xset      &&
+runtime_depends xsetroot  &&
+suggest_depends breeze 'default theme' &&
+suggest_depends sddm   'login manager' &&
 optional_depends boost        '' '' 'for several plasma dataengines' &&
 optional_depends akonadi5     '' '' 'event support in the calendar DataEngine' &&
+optional_depends kactivities5  '' '' 'activity related plasmoids' &&
 optional_depends kxmlrpcclient '' '' 'for several plasma dataengines' &&
 optional_depends libdbusmenu-qt5 '' '' 'notifications by Dbus' &&
-optional_depends qalculate    '' '' 'advanced features of the calculator runner' &&
-optional_depends qimageblitz5 '' '' ''
+optional_depends qalculate    '' '' 'advanced features of the calculator runner'
