@@ -1,0 +1,14 @@
+           SPELL=plasma-workspace-wallpapers
+         VERSION=5.0.2
+     SOURCE_HASH=sha512:a8f0ab932ccd84b14b5651e954966700a625b9f47c249d3c2dcb2b40b9b78d17c46f59c857df7904b6ae128d6f7316bca5319d577b135b1c32196c4b1dd63690
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/frameworks/plasma-workspace
+       LICENSE[0]=GPL
+         ENTERED=20140321
+        KEYWORDS="KDE5"
+           SHORT="Wallpapers for Plasma Workspace"
+cat << EOF
+Wallpapers for Plasma Workspace
+EOF
