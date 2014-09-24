@@ -28,11 +28,13 @@ runtime_depends mkfontdir &&
 runtime_depends xprop     &&
 runtime_depends xset      &&
 runtime_depends xsetroot  &&
-suggest_depends breeze 'default theme' &&
-suggest_depends sddm   'login manager' &&
+suggest_depends breeze '' '' 'default theme' &&
+suggest_depends sddm   '' '' 'login manager' &&
+suggest_depends plasma-workspace-wallpapers '' '' 'wallpapers for Plasma' &&
 optional_depends boost        '' '' 'for several plasma dataengines' &&
 optional_depends akonadi5     '' '' 'event support in the calendar DataEngine' &&
 optional_depends kactivities5  '' '' 'activity related plasmoids' &&
 optional_depends kxmlrpcclient '' '' 'for several plasma dataengines' &&
 optional_depends libdbusmenu-qt5 '' '' 'notifications by Dbus' &&
 optional_depends qalculate    '' '' 'advanced features of the calculator runner'
+
