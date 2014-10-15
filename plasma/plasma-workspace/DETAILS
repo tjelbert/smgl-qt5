@@ -1,9 +1,10 @@
            SPELL=plasma-workspace
-         VERSION=5.0.2
-     SOURCE_HASH=sha512:f2962d0adb5efb361155d4ad41a8d2c913d82a2fbf83fc217cd0bb847daeb33735e7164b312e8faa25dde684570bae556498fffb7fa5b9af306f6b052711493c
+         VERSION=5.1.0.1
+            VX=${VERSION%.?}
+     SOURCE_HASH=sha512:21cfad58759c5cc5578db33b56eb1ddba1608868ad7f07a3397ef93d5a42eb7784cb1c7d12f49569e471df0e51631329e1e302ff5fc9ddd6e59d8f1386276ee7
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+      SOURCE_URL=$KDE_URL/stable/plasma/$VX/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VX
         WEB_SITE=https://projects.kde.org/projects/frameworks/plasma-workspace
        LICENSE[0]=GPL
          ENTERED=20140321
