@@ -1,9 +1,10 @@
            SPELL=plasma-desktop
-         VERSION=5.0.2
-     SOURCE_HASH=sha512:f3fbf0fab0eece133fe38e7daebd06ce0720d514f2374e78f367075bb254e26a0d5f268d0d5b9da6248f6b690a0a08f8103de93ad7da276b659950d0e9d3ff90
+         VERSION=5.1.0.1
+            VX=${VERSION%.?}
+     SOURCE_HASH=sha512:94241834158afea5f0369ef1680a10887220c063ce9e78815d45cc2acb516d08ebc6f52b5f87dd547f1447505dcfca059446690406ab389e17596b86c0ba96ee
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+      SOURCE_URL=$KDE_URL/stable/plasma/$VX/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VX
         WEB_SITE=https://projects.kde.org/projects/frameworks/plasma-desktop
        LICENSE[0]=GPL
          ENTERED=20140321
