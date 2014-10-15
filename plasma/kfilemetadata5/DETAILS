@@ -1,10 +1,11 @@
            SPELL=kfilemetadata5
           SPELLX=${SPELL//5}
-         VERSION=5.0.2
-     SOURCE_HASH=sha512:a2dfe3ca4b72618b18986449381c7ba684fb5efe551d0139c584472bdde7a83c2609bbc915af3eaaaf08840e7b9650817bc0b4f99ca460c923e8caa9641aebf6
+         VERSION=5.1.0.1
+            VX=${VERSION%.?}
+     SOURCE_HASH=sha512:aa73f768d21c4ee914f388e89292a17b2cf5538276fe9513574380abd2adacc173b88604945da3c3c16cb78735367d10a65b1d326e0466852f495cebea54fa17
           SOURCE=$SPELLX-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/${SPELL//5}-$VERSION
+      SOURCE_URL=$KDE_URL/stable/plasma/$VX/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/${SPELL//5}-$VX
         WEB_SITE=https://projects.kde.org/projects/frameworks/kfilemetadata
       LICENSE[0]=LGPL
          ENTERED=20131217
