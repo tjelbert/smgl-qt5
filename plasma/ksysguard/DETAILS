@@ -1,9 +1,10 @@
            SPELL=ksysguard
-         VERSION=5.0.2
-     SOURCE_HASH=sha512:b579ea71bce4b6989654d99e58c56c9fb86bce70cab3fc15bc4fcf07f05fdd4fa13663a7b0cb2fab867e8522884cede31d541076c3c0bd8dca8dc458a86e94dc
+         VERSION=5.1.0.1
+            VX=${VERSION%.?}
+     SOURCE_HASH=sha512:71b0df4d2b475e37fbdf2c3264f63bc1bc2ef9648212baa90972e32b09713c72d3272968ce2f2396f6398086aa660eabe04f7637f9b3b72bfbd5b6503595706b
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+      SOURCE_URL=$KDE_URL/stable/plasma/$VX/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VX
         WEB_SITE=https://projects.kde.org/projects/frameworks/ksysguard
        LICENSE[0]=GPL
          ENTERED=20140319
