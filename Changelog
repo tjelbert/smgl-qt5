@@ -1,3 +1,6 @@
+2014-10-16 Treeve Jelbert <treeve@sourcemage.org>
+	* plasma/kwayland:wayland support for plasma
+
 2014-09-24 Treeve Jelbert <treeve@sourcemage.org>
 	* kde5/grantlee5: added templating engine
 

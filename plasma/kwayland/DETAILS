@@ -1,0 +1,15 @@
+           SPELL=kwayland
+          SPELLX=plasma-ws/kwayland
+         VERSION=5.1.0.1
+            VX=${VERSION%.?}
+     SOURCE_HASH=sha512:ac4377179477618e923483f260e837b5e6ee4d822d0b88f19dbc5452ae1777752a878c60c70bd555546820e4dabd5a29776230dd63b93b86d9038f9416a820c6
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/plasma/$VX/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VX
+       LICENSE[0]=LGPL
+         ENTERED=20141016
+        KEYWORDS="KF5"
+           SHORT="Wayland support for KF5"
+cat << EOF
+Wayland support for KF5
+EOF
