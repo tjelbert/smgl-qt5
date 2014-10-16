@@ -28,7 +28,4 @@ depends xcb-util-wm   &&
 depends OPENGL        &&
 
 optional_depends kactivities5 '' '' 'Activities support' &&
-optional_depends wayland      '' '' 'Wayland support' &&
-if is_depends_enabled $SPELL wayland;then
-  depends libxkbcommon
-fi
+optional_depends kwayland      '' '' 'Wayland support'
