@@ -1,6 +1,6 @@
 source  $SECTION_DIRECTORY/KDE_DEPENDS
-
 depends qtdeclarative &&
+depends qtx11extras  &&
 depends qtsvg        &&
 depends kcmutils     &&
 depends kdelibs4support  &&
@@ -8,33 +8,46 @@ depends kdeclarative &&
 depends kdesu        &&
 depends kdewebkit    &&
 depends kdoctools    &&
-depends plasma-framework &&
 depends kidletime    &&
-depends krunner      &&
+depends kio          &&
 depends kjsembed     &&
 depends knewstuff    &&
 depends knotifyconfig &&
+depends krunner      &&
+depends ktextwidgets &&
 depends kwallet5     &&
-depends libksysguard &&
+depends plasma-framework &&
+depends solid        &&
 depends threadweaver &&
+
+depends baloo5       &&
 depends kwin         &&
+depends libkscreen2  &&
+depends libksysguard &&
 depends libx11       &&
 depends libxcb       &&
 depends libxdmcp     &&
 depends xcb-util-wm  &&
-depends libkscreen2  &&
-runtime_depends milou &&
+depends zlib         &&
+
+runtime_depends kde-cli-tools &&
 runtime_depends mkfontdir &&
 runtime_depends xprop     &&
 runtime_depends xset      &&
 runtime_depends xsetroot  &&
+runtime_depends oxygen-fonts &&
 suggest_depends breeze '' '' 'default theme' &&
-suggest_depends sddm   '' '' 'login manager' &&
+
+suggest_depends plasma-desktop '' '' 'Plasma desktop tools' &&
 suggest_depends plasma-workspace-wallpapers '' '' 'wallpapers for Plasma' &&
-optional_depends boost        '' '' 'for several plasma dataengines' &&
-optional_depends akonadi5     '' '' 'event support in the calendar DataEngine' &&
-optional_depends kactivities5  '' '' 'activity related plasmoids' &&
+suggest_depends sddm   '' '' 'login manager' &&
+suggest_depends sddm-kcm '' '' 'config tool for sddm' &&
+
 optional_depends kxmlrpcclient '' '' 'for several plasma dataengines' &&
 optional_depends libdbusmenu-qt5 '' '' 'notifications by Dbus' &&
-optional_depends qalculate    '' '' 'advanced features of the calculator runner'
-
+optional_depends qalculate    '' '' 'advanced features of the calculator runner' &&
+optional_depends linux-pam    '' '' 'Authentication for screen unlocker' &&
+optional_depends kparts       '' '' '' &&
+optional_depends ktexteditor  '' '' '' &&
+optional_depends gpsd        '' '' 'geolocation support' &&
+optional_depends phonon4qt5  '' '' 'sound support'
