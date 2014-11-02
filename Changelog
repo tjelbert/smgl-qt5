@@ -1,3 +1,6 @@
+2014-11-02 Treeve Jelbert <treeve@sourcemage.org>
+	* qt5-cmake/otter: new spell, web browser
+
 2014-10-16 Treeve Jelbert <treeve@sourcemage.org>
 	* plasma/kwayland:wayland support for plasma
 

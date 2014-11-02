@@ -1,0 +1,5 @@
+depends cmake    &&
+depends qtbase   &&
+depends qtscript &&
+depends qtwebkit
+#depends libgcrypt

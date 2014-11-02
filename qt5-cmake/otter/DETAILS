@@ -1,0 +1,15 @@
+           SPELL=otter
+          SPELLX=otter-browser
+         VERSION=0.9.03
+     SOURCE_HASH=sha512:d21f9ac83c752b7662bf5b1898cd838728484dd599c5e7beb93e66eeccbd002907932d88f36b502cea9a4f65d3056fc235acfc1ee7c03fc772178bb34f793f19
+          SOURCE=$SPELLX-$VERSION.tar.bz2
+      SOURCE_URL=http://sourceforge.net/projects/$SPELLX/files/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
+        WEB_SITE=http://otter-browser.org
+         ENTERED=20141102
+      LICENSE[0]=LGPL
+        KEYWORDS=
+           SHORT="Qt5 based web browser"
+cat << EOF
+Qt5 based web browser
+EOF
