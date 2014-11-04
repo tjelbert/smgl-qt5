@@ -1,3 +1,6 @@
+2014-11-04 Treeve Jelbert <treeve@sourcemage.org>
+	* utils/phonon4qt5-vlc: new spell , vlc backend for phonon
+
 2014-11-02 Treeve Jelbert <treeve@sourcemage.org>
 	* qt5-cmake/otter: new spell, web browser
 
