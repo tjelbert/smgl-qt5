@@ -1,8 +1,9 @@
            SPELL=kservice
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:d8442c1c70b7d606ea4aef891df1bf94e40a4f29fea98bb7a1cae0c7754ae6723f04703a834fdc4cfa9b567d707161bf3c386d5ae85dfee4a9e41673b029a184
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:72f7931a2f5f2a75c26ab4ad53222e381731d66b022303a9a66ba7e63af99492675bbb353deac3c243942d90162a390b6e1fee366373d6cf1cac1a15986683eb
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kservice
        LICENSE[0]=GPL
