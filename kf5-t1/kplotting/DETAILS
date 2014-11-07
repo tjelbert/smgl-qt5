@@ -1,8 +1,9 @@
            SPELL=kplotting
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:db34bfd0c7f39f217048f97c295c53dd9f9b06fb7133d9b912b8f8b3d3f4f3c59e12dfb335607d85ad955c698d178d77ead702c9a2103a472744d6a25c772e53
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:3642ec046570e31cd2e37f6a957b58fc76958efd61d03462dad1199e52fa152060ec459eefc6794c3a0ad214d57fd7a70d873556dce4ca9c51bd42bec4532d73
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kplotting
        LICENSE[0]=GPL
