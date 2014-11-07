@@ -1,8 +1,9 @@
            SPELL=kimageformats
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:640339baa95295a16fe82f8e6bd5e6fd951c755e470d9d759a6118da874f5307438a17db39a3cc79acfe775e063f6676d6db9fccf998bc0a5ed062cf7af343d0
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:918765052373c193283ba7f71a6de1fd86baa5ef5f345c1b205e1c757080808304619e59c3ca0ffcd0a2bceca58e243bf2fed61e4b7e0efcc73da83e11490658
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kimageformats
        LICENSE[0]=GPL
