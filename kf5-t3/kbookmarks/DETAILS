@@ -1,8 +1,9 @@
            SPELL=kbookmarks
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:7b5ad364e341fce43df0544b07e5ebe0e1aa8b559b6093d6f587eaf9a7e60bf43fe6ba4259e2f7e89af97d8b2abb598f137ab5a1d538ae447496832960926830
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:bdf0b7986ca2efc26919f76b6eb9a7244c2df63a2e2d8cc2575bd8962f4304bca985f52a03ba7eb46b040e0c45095396883717d95ef560c736cedc6ff334d856
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kbookmarks
        LICENSE[0]=GPL
