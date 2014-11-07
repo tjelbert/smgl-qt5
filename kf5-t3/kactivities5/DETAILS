@@ -1,9 +1,10 @@
            SPELL=kactivities5
           SPELLX=kactivities
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:83dded1a5f14921ce2afeb874f75ccddb5dd1fe2fdcfb7ffd4eab1a871ca2c10abb83cbe26aafcfaaf542801face4dba20186d91bcbc588848dd9a77fedd2398
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:eaa1320c6bcdcf994156531b560552b1a29796d93769dd43635e28594894e311af22fe48f006e1702216ec10ec3b3dc773d11dea8de7599b76a5ae668f5fcdf7
           SOURCE=$SPELLX-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kactivities
          ENTERED=20131021
