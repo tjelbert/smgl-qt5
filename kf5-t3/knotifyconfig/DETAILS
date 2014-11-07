@@ -1,8 +1,9 @@
            SPELL=knotifyconfig
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:0efadcd781553fda3cf6529ae7232d5bbcccadeb9be2b13b1f7eec8cce1aecde86763e4d6fa17e8b3a98cd7e3c0df6fc58b5faa5ef059ec7032915fdfa0a5c81
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:7d2d83127ae92f506add74e536cf46f85967856029eee8c4dbbe475930b4e28e793524beb4cb341b4383760ff3f4e335b31e0ee50f7095ffbcf552eea1048542
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/knotifyconfig
        LICENSE[0]=GPL
