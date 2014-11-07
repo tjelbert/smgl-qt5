@@ -1,9 +1,10 @@
            SPELL=kdelibs4support
-         VERSION=5.3.0
+         VERSION=5.4.0
+       VX=${VERSION%.?}
       PATCHLEVEL=1
-     SOURCE_HASH=sha512:a99ef9139b1f99ccd115b0114edd74908d0c0110986d7c73d7178bff745299bde53013ba77bece3e378fb0560aec496b036376afb7e378e72a76d0626457385c
+     SOURCE_HASH=sha512:d00bf72ac63a8c7a69724216ccf8b008c0bfbe88a67e6c9f2d617d46fcc299f6fb14a44d17e30290dc250bae053f576f05b086979101a145338c46b9319ce336
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/portingAids/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/portingAids/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/$SPELL
        LICENSE[0]=GPL
