@@ -1,8 +1,9 @@
            SPELL=kconfig
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:696cae54d1cd25368e238138538501c5ffe50281b22687eafe7152008460e78e0027ad6fd158a5dabc084236754df8df7924285559a0b5ce0240783ed109ea64
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:51f2a65dbe12fa43e1895fcddb705bae0da5a3d041bd734ed24bbe2fab490a4ae5b50654f6a74c8cfc475ae507ee7acbf8a024d2169fe9cdc2a41bf479f6ebab
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kconfig
        LICENSE[0]=GPL
