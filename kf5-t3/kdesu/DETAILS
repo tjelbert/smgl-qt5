@@ -1,8 +1,9 @@
            SPELL=kdesu
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:5291961b497cd243ca86a8cf4af1524bc2d09a06beaa9d8d94ed8c53ddd3cb1920f75ef1d03d00c69f2ce04c74fc05757168cd334982fb20baab132f03a7c8f4
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:083e9c65ccb7e0d8a9a4f93b2d08bebf3989e7d8ac4670fa32ecc91f9166a7dc1cb891966de076baff5e1c896587c0ccaabc4a378cf6d8ecc01027b035590f32
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kdesu
        LICENSE[0]=GPL
