@@ -1,8 +1,9 @@
            SPELL=kmediaplayer
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:6832e1bdb5843542f37ca36bd8cfbd9cfd102ae88a13b125b1ae3a87b07d64a5a089e71ce73264f5e1365955e99bef004ba9b7e28ed9eecde11548a4828c8db3
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:de11b9760977141a96e405b56384fbcdafcfd8362f59c48f5a1deb498cd02edd944d3cb2e62de9619cb4d8cc846e00c68285dd93ab715adddb4ac54cff94c79e
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/portingAids/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/portingAids/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kmediaplayer
        LICENSE[0]=GPL
