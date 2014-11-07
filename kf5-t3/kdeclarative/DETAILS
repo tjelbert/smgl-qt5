@@ -1,8 +1,9 @@
            SPELL=kdeclarative
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:dd60feac0396468b83e538b2f8de63e18de91dd955f7b4ce15cb7e2be913980165cc7c2249460b4a7e9c96d3e7a3d6cf0d04400db285804d2f5f5bca5e34c53e
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:7025c3e279318c2ee8ccb7e0ed900c1f8e3208d47ab1ac7d374a02d64963cbafa3b6ed6491358d92975fdb74c47f7eedf8f8a805199cf5aaffb4e80ee2e7adb7
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kdeclarative
        LICENSE[0]=GPL
