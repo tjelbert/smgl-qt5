@@ -1,8 +1,9 @@
            SPELL=kcmutils
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:8a9c78b5b76eff92b3c54087d8f6109859c6c0e6191cb5bb0e99cdff78a5a6a0b258d5d517d92fb7d2536e93c1ddcdc0b1dce61f2c93ba095a94850c511bc146
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:e8c0c3150a27b722faa1f3c115d5d70382beec0f7b979dd7f266dad2c58dc6e1ba4a001736caaf3641c766c64c9c034c3dd99018857ffd7deb6c460b081fc308
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kcmutils
        LICENSE[0]=GPL
