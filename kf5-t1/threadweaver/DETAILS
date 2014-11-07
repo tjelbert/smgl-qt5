@@ -1,8 +1,9 @@
            SPELL=threadweaver
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:8023aa91f59ca14d6077c3f23614a6823d8c8a6d4cdb619ea6971af49269dc0f1c6ec9148816fc3f6834e8d58fce9c2dd62dfd30f9d330183645605c22622d19
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:1ece4bef2d631d855e1ab5797b6b913b8eb55774b57b4068605bfb4ce368b10c61f5b49ad009011c53de637959b1c0ca5157f5cd8fc60d9b5e2d2ad228dbb3af
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/threadweaver
        LICENSE[0]=GPL
