@@ -1,8 +1,9 @@
            SPELL=kemoticons
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:0f444ef32508d8ebbf302bc6887ec5a871ed4d90abea4d1ebd0a82805d86935bfdf9989986641499d062036b9f63c25286a23471a04039e5761e53278852e8e7
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:5e939dba01542f17a86f4d40bd4ffa58eece37547f322d1b8f938de51f361724515eb9576df1aa7930181a6cc76aef1372c599e441f9b0cf32ffe575735f1c0b
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kemoticons
        LICENSE[0]=GPL
