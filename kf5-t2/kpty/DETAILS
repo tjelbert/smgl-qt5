@@ -1,8 +1,9 @@
            SPELL=kpty
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:4655f2a0a793ad6f614cccd1ff9bc139c541112ac6e58b1a1817acaf8540767d0921834300ead8ea849c663600c818015328abd0b51f70912d2208d59d826c09
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:a729d67eaf7d7bfac3d43ccaed66bec3b21beb6512ce3600685a0d892cf5e453317e0a9d91707fb891052735f40e8e71a10a3d9c2d630c0395f4a9110be31774
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kpty
        LICENSE[0]=GPL
