@@ -1,8 +1,9 @@
            SPELL=kcompletion
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:1962674f47320c60b757e4b8f5f99ec427e324e4cc43fdc95127408ea61274ac9aa6a9ecb8f7a24f01a1072e3b463984c5070e105169cc95659d4fe1e13bdee4
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:0ecd9d3afdd32bcdff970dccfffa5c764506875cf0d735f6bb06636c3f653a97f0d28f07a09807598cae741ff2607aa1e11def708e0bc9a29664ab82d58e5413
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kcompletion
        LICENSE[0]=GPL
