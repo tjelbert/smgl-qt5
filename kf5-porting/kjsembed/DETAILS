@@ -1,8 +1,9 @@
            SPELL=kjsembed
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:9ed412c9d9b9b07015805e7464a53232e24ed6e899393b80b98f21ee381ec3e8429d83c6d0dccaa2e85aee0a939a6d9e2f7b050c87dd13b1de365766133d2b4e
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:d16b1ee6ee492c27acbb52766d4bb0092816ad68f2efb41f07685b5b17392f8873054b05c1d91d27b9b018fda35aadff6b2ff3336ac5dbb5b17e26b632081363
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/portingAids/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/portingAids/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kjsembed
        LICENSE[0]=GPL
