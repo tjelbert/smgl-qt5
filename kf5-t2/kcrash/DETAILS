@@ -1,8 +1,9 @@
            SPELL=kcrash
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:6c7f45ff780d13e075aa16cfa4ee189bb2ee03ed0ee286d23b4a4a4061fc09099703a50f8e0142d8362f956fc54171d54f85c85831070f68d5b3b51feb497ea5
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:b3d79f52371f93569b8f7570949f613aa01fc99c0823d742dcf2ae1a3274f63037893275718e776f840ce4d41d1d967a2992f4c05d97b05cbe5c5529e499f95d
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kcrash
        LICENSE[0]=GPL
