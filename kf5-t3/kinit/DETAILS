@@ -1,8 +1,9 @@
            SPELL=kinit
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:e2ce5d416ca1d5dab659df15cbfd13d0193aee46a0d44c3cf9d2d1cd1b13d63d3234a513405947959027c21ce92dcbdb42432a6da7fb2d9d369729cdb65c1cbd
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:998816ee771e8088e58d77df7afcadadecd715e2073aa7cf29b718977c2ed988a1c4e1ae89e8f322b65ba41f738e33817adb4454f40e385d9ccab41216db81f5
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kinit
        LICENSE[0]=GPL
