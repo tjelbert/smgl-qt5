@@ -1,8 +1,9 @@
            SPELL=kxmlgui
-         VERSION=5.3.0
-     SOURCE_HASH=sha512:ccfebd2334c68fdc28eeadeb337a53134dbcfd753270bb09fb4bb72cb77596fca948165edafdce079244f3e63a7af42ab2dae6e5c2b16dd13929afd3058d3079
+         VERSION=5.4.0
+       VX=${VERSION%.?}
+     SOURCE_HASH=sha512:94f92889ab7b07d7d74f30bebf7a5511f9fad09c43ba97dc5e35e9a14049978ef71e69b4ea9e6be2430cb46a0881fe89bf486245be2430ade2a294d9a58fc7c1
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/frameworks/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kxmlgui
        LICENSE[0]=GPL
