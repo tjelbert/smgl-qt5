@@ -1,10 +1,9 @@
            SPELL=kmenuedit
-         VERSION=5.1.0.1
-            VX=${VERSION%.?}
-     SOURCE_HASH=sha512:6b10a32e695a65688d4871be10ac96c1edf80a12766a344b07b584776c5ad94bbc61f15ad8b7cea3b996c6948edd51b7aed2275402667abda119250c1da04cfa
+         VERSION=5.1.1
+     SOURCE_HASH=sha512:dd950f0b4f112cdfc930a0ce6060da75d80d53b1c475fd940384899263aa2d00ef09f5a0efaddbb40d48bad2efd5630b32969728cdc20644bec3bc8ef436ef8b
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/plasma/$VX/$SOURCE
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VX
+      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/kmenuedit
        LICENSE[0]=GPL
          ENTERED=20140321
