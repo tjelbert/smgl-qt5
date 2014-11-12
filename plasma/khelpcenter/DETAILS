@@ -1,10 +1,9 @@
            SPELL=khelpcenter
-         VERSION=5.1.0.1
-            VX=${VERSION%.?}
-     SOURCE_HASH=sha512:f78956e5bdd00cd5e0e20caa880e20da76f2152f5154a0c3af7161e870051208919af26ae92c867c5a0877512422385ca73ef37f461e769e336ae49e888f5766
+         VERSION=5.1.1
+     SOURCE_HASH=sha512:ccef14bf0769b6d7ca78d79bc32a551cbfdd5accb0543737f135a2ed24f73664521a0f9c0e9a4aaefadab755437c44a123eab5e0288a9348797a6198d91adb7a
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/plasma/$VX/$SOURCE
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VX
+      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/khelpcenter
         WEB_SITE=https://projects.kde.org/projects/frameworks/
          ENTERED=20140407
