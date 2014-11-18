@@ -1,3 +1,6 @@
+2014-11-18 Treeve Jelbert <treeve@sourcemage.org>
+	* plasma.sh: tweak for kde4 support
+
 2014-11-12 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.1.1
 

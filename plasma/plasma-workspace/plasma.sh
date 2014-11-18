@@ -1,19 +1,26 @@
 #!/bin/sh
 if [ "$USER" != "root" ];then
+
 # setup KDE5 environment for SMGL
-QTDIR=/opt/qt5
-KF5=$QTDIR
-export PATH=$KF5/bin:$PATH
+export QTDIR=/opt/qt5
+export KF5=$QTDIR
+export PATH+=":$KF5/bin"
 export XDG_CONFIG_DIRS=/etc/xdg
-export XDG_DATA_DIRS=/usr/share
-export QT_PLUGIN_PATH=$KF5/lib/plugins
+export XDG_DATA_DIRS+=$QTDIR/share:/usr/share
+export QT_PLUGIN_PATH+=:$KF5/lib/plugins
 #export QT_PLUGIN_PATH=$KF5/lib/plugins:$QTDIR/plugins:
 
 export QML2_IMPORT_PATH=$KF5/lib/qml
 export QML_IMPORT_PATH=$QML2_IMPORT_PATH
-export XCURSOR_PATH=~/.icons:/usr/share/icons:/usr/share/pixmaps
-#export XCURSOR_PATH=$KF5/share/icons:~/.icons:/usr/share/icons:/usr/share/pixmaps
+export XCURSOR_PATH=$KF5/share/icons:~/.icons:/usr/share/icons:/usr/share/pixmaps
 
+# allow running kde4 apps in a plasma5 session
+  export KDE4=/opt/qt4
+  if [[ -f $KDE4/bin/kdeinit4  ]];then
+    export XDG_DATA_DIRS+=":$KDE4/share"
+    export PATH+=":$KDE4/bin"
+    export QT_PLUGIN_PATH+=":$KDE4/lib/plugins"
+  fi
 # temporary runtime directories
 export XDG_RUNTIME_DIR=${TMPDIR-/tmp}/plasma-$USER
 
@@ -27,5 +34,4 @@ fi
 #    kbuildsycoca5
 # if kwin is already running, use the following command
 # kwin_x11 --replace &
-
 
