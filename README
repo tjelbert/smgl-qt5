@@ -16,7 +16,7 @@ GRIMOIRE_DIR[4]=/home/treeve/mygrim
 #GRIMOIRE_DIR[6]=/var/git/smgl-z
 
 
-All spells in this grimoire will be installed to '/opt/qt5'.
+All spells in this grimoire will be installed to '/usr'.
 
 The reason for doing this is that, although Qt5 and KF5 could be co-installedwith the Qt4/KDE4 
 eqivalents, many of the other spell cannot be
