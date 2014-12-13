@@ -1,7 +1,7 @@
            SPELL=kdbusaddons
-         VERSION=5.4.0
+         VERSION=5.5.0
        VX=${VERSION%.?}
-     SOURCE_HASH=sha512:101b466fcb58e43c40beefccdaee4df5b43fdd9c8f7fa8e4a2db65a7e1b690068c4b7af11b41b6d9ff17739c95973d728f10db5ad5cc8cbe4794597dd2851c9c
+     SOURCE_HASH=sha512:f850645a1f03ed245f033ee213d3d470c50816ef90edf03885ab286a3f2a865accc6c809a1169d95bcebbcea1c4b577f2fe5914adece8a28c2d045697faeddba
           SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
