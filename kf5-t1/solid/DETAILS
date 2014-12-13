@@ -1,7 +1,7 @@
            SPELL=solid
-         VERSION=5.4.0
+         VERSION=5.5.0
        VX=${VERSION%.?}
-     SOURCE_HASH=sha512:cc29734fb0b8ffd49fe65aa4a6bfcaee1cc2a12b1370d87cca031bf63fc009c7c15a61cf4c4c1cfe10c0a3b71d9bec111a6ed23d71b85ec92a13b1b92821c4ee
+     SOURCE_HASH=sha512:a88a0b087e07fd779aba9eff43aeb430ca0e2321d0b4cc46c75725b9012eda8b313e4435cf5cdabd25e2fd62ae585c38edfdde8a64c353bc92bf20560d236e60
           SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
