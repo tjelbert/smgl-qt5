@@ -1,6 +1,9 @@
 2014-12-13 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 1.8.5
 	  qt5 only
+	* BUILD: added
+	* DEPENDS; add SSL, kwallet5, hunspell
+
 
 2014-02-04 Treeve Jelbert <treeve@sourcemage.org>
 	* BUILD, DEPENDS: add qt5 support
