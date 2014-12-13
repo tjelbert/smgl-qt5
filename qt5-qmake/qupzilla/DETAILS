@@ -1,0 +1,13 @@
+           SPELL=qupzilla
+         VERSION=1.8.5
+     SOURCE_HASH=sha512:5e6a6f3624a3b52ac9738b5e7397021476ae101c39da6cdd11e21f46249ef229011eab214c4680174d6735ff59e9a821d3632dcb6f42d64e42fdd11a502c9658
+          SOURCE=$SPELL-$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+   SOURCE_URL[0]=https://github.com/QupZilla/qupzilla/archive/v${VERSION}.tar.gz
+        WEB_SITE=http://www.qupzilla.com/
+      LICENSE[0]=GPL
+         ENTERED=20140120
+           SHORT="web browser based on WebKit core and Qt Framework"
+cat << EOF
+QupZilla is modern web browser based on WebKit core and Qt Framework.
+EOF

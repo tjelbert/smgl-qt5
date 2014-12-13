@@ -1,3 +1,6 @@
+2014-12-13 Treeve Jelbert <treeve@sourcemage.org>
+	* qt5-qmake/qupzilla: added, web browser
+
 2014-11-21 Treeve Jelbert <treeve@sourcemage.org>
 	* qt5-cmake/sddm: new spell, display manager
 
