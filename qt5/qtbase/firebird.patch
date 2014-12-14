@@ -1,8 +1,7 @@
-From d7811ab6a2d989b89befc28dc599477edcc8d8e2 Mon Sep 17 00:00:00 2001
+From ad488571f8001dd1cc671a42dc123071f89b412e Mon Sep 17 00:00:00 2001
 From: Treeve Jelbert <treeve@sourcemage.org>
 Date: Mon, 9 May 2011 21:06:05 +0200
-Subject: [PATCH] fix config tests for firebird & odbc fix linking wiht
- firebird
+Subject: [PATCH] fix config tests for firebird fix linking with firebird
 
 ---
  config.tests/unix/ibase/ibase.pro    | 2 +-
@@ -32,5 +31,5 @@ index ef3b68d..3ad51ba 100644
      !contains(LIBS, .*gds.*):!contains(LIBS, .*fbclient.*) {
          LIBS += -lgds32_ms
 -- 
-1.9.1
+2.2.0
 
