@@ -1,5 +1,6 @@
 2014-12-13 Treeve Jelbert <treeve@sourcemage.org>
 	* firebird.patch, PRE_BUILD: fix detection of firebird
+	* BUILD: fix prefix
 
 2014-12-10 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.4.0
