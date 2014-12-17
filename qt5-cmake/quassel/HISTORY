@@ -1,0 +1,6 @@
+2014-12-17  Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 0.11.0
+
+2014-08-19  Treeve Jelbert <treeve@sourcemage.org>
+        * DEPENDS: openssl => SSL
+

@@ -1,0 +1,17 @@
+           SPELL=quassel
+         VERSION=0.11.0
+     SOURCE_HASH=sha512:51450559df2c0fee9a54b76a9342edb9a3b834f1f58edc556e0c1bf1f9366c846d95e7953e1b48c6ecf67ea4255b3574ed3ce537962eec222c5c03ab02852c1d
+          SOURCE=$SPELL-$VERSION.tar.bz2
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=http://quassel-irc.org
+   SOURCE_URL[0]=$WEB_SITE/pub/$SOURCE
+      LICENSE[0]=GPL
+         ENTERED=20090103
+        KEYWORDS="irc"
+           SHORT="distributed IRC client"
+cat << EOF
+Quassel IRC is a modern, cross-platform, distributed IRC client, meaning
+that one (or multiple) client(s) can attach to and detach from a central
+core -- much like the popular combination of screen and a text-based IRC
+client such as WeeChat, but graphical.
+EOF
