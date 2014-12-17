@@ -1,0 +1,14 @@
+           SPELL=kanagram
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:7e719a80a90802b821ebbcd25681ce4620a723370d4d8c589418e44e5604904af7b12409a004e156605d5b7522b37d3636e1f942fdf99136820f740d3dd48cf7
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kanagram
+         ENTERED=20140815
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="Letter Order Game"
+cat << EOF
+Letter Order Game
+EOF
