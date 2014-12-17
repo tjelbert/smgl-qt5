@@ -1,0 +1,15 @@
+           SPELL=libkeduvocdocument
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:55b8c4017daf7bd3612866603a1f7f0f304146d4b21f00516d00a8fb9cfc3198b16595fddefe86493fb7ecbd69a66f78d186e16bf37391d64806ff312229f97c
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//libkeduvocdocument
+         ENTERED=20110211
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kf5 education"
+           SHORT="read/write KVTML format"
+cat << EOF
+class for reading from/writing KVTML format
+EOF

@@ -1,0 +1,4 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS
+depends karchive &&
+depends ki18n    &&
+depends kio
