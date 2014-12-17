@@ -1,0 +1,14 @@
+           SPELL=konsole
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:607597737b1a39a9264e2b561470eddf576b9b8de704110d60ee4d271348120187b15cdf2c68950cd1adb04346626cc59b9ac51fd1486372cf3d0baabf2a26aa
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/konsole
+       LICENSE[0]=GPL
+         ENTERED=20131212
+        KEYWORDS="KF5"
+           SHORT="Konsole interface for KF5"
+cat << EOF
+Konsole interface for KDE5
+EOF

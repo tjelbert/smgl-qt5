@@ -1,0 +1,13 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS
+depends kdelibs4support &&
+depends kguiaddons  &&
+depends ki18n       &&
+depends kiconthemes &&
+depends kio         &&
+depends knotifications &&
+depends knotifyconfig  &&
+depends kpty           &&
+depends ktextwidgets   &&
+depends kwindowsystem  &&
+depends kxmlgui        &&
+optional_depends libkonq '' '' 'drag-n-drop menus'
