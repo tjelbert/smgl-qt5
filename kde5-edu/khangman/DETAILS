@@ -1,0 +1,14 @@
+           SPELL=khangman
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:1558318f178abe762ea19a39bd24f9d3ca86d7e509b01fe6e2deca9bdc8a2e63a0c04cfd724bd1906ec4bc187618b014e9fbc8bda53388754ed2282883d823a4
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//khangman
+         ENTERED=20110803
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="KDE hangman game"
+cat << EOF
+KDE hangman game
+EOF
