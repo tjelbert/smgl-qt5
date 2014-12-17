@@ -1,0 +1,16 @@
+           SPELL=okteta
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:ca3fede3f7aaae33785793ca3561522ee454007b8a1243af0c78cb4b1cb2cd9394a4cec5aa1cde15dcb5520d4a63e90ddde43f8bb50b0857f6d520d41f3b5911
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects/okteta
+         ENTERED=20130219
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="hex editor for KDE5"
+cat << EOF
+utility for KDE5
+hex editor for viewing and editing the raw data of files
+EOF
