@@ -1,0 +1,15 @@
+           SPELL=analitza
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:0b0df486b3373e19e79189d6d519ddfbf13a0b7b77358640b16d5593e2943b438e358b62180ec86a220d839464b31261c7a8fddc6299d61a8d6fc51bce1c3435
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//analitza
+         ENTERED=20111028
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kf5"
+           SHORT="kf5 mathematics: editor and plotting"
+cat << EOF
+kf5 mathematics: editor and plotting
+EOF
