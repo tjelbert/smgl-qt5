@@ -1,0 +1,9 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS  &&
+depends kconfigwidgets &&
+depends ki18n     &&
+depends kio       &&
+depends kwidgetsaddons &&
+depends qtdeclarative  &&
+depends qtwebkit  &&
+depends analitza  &&
+optional_depends  OPENGL   "" "" "3D graphs support"
