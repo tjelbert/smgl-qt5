@@ -1,0 +1,16 @@
+           SPELL=kdeedu-data
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:cc9238e7c33b9ce0d2b74e689318fbe1fdaae7005e6c472d3285fcb323afc2a262c30bc2561dadb9780a13d52e4f09be6f9e661f098d426c33aaea5653fc666d
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kdeedu-data
+         ENTERED=20110211
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kf5 education"
+           SHORT="icons & datat"
+cat << EOF	
+
+icons & data
+EOF
