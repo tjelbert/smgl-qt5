@@ -1,0 +1,14 @@
+           SPELL=parley
+         VERSION=14.12.0
+     SOURCE_HASH=sha512:e37b4b180c20378544c004936c695c0fb53c405c3e0b421ad83832908d3b8bd60b9c6582028fb49205da3fd586a01fba70df7116160d70d8e3477e2a6ff86488
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/applications/$VERSION/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//parley
+         ENTERED=20110803
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="Vocabulary Trainer"
+cat << EOF
+Vocabulary Trainer
+EOF
