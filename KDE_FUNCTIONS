@@ -1,5 +1,5 @@
 default_build() {
- ${KF5}_build
+ kde5_build
 }
 
 function default_install() {
@@ -35,11 +35,7 @@ function dbus_install() {
 # so that the mime and desktop databases get updated
 update_databases() {
 local DD
-if [[ ${KF5} == 'kde5' ]];then
   DD=$KF5DIR
-else
-  DD=$KDE4DIR
-fi
   update-mime-database $DD/share/mime/
   if [[ -e $DD/share/desktop-directories ]]; then
     update-desktop-database $DD/share/desktop-directories
