@@ -1,0 +1,4 @@
+. $GRIMOIRE/KDE_FUNCTIONS
+default_build() {
+  qt5_cmake_build
+}
