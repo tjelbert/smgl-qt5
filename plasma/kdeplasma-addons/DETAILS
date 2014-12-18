@@ -1,0 +1,15 @@
+           SPELL=kdeplasma-addons
+         VERSION=5.1.2
+     SOURCE_HASH=sha512:73f3382fbced88ae9b2d078330abdc6e1d01adebbf05b655f1fb2517c6b79bc790405a50cf1d8b8b340f7ec01f58047a90691e12194f1aa83f8e9702835b06b8
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kdeplasma-addons
+         ENTERED=20140110
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="themes and applets for KDE5"
+cat << EOF
+themes and applets for KDE5
+EOF
