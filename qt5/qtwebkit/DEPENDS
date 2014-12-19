@@ -7,6 +7,7 @@ depends RUBY   &&
 depends qtbase &&
 depends JPEG   &&
 depends libpng &&
+depends libwebp &&
 depends zlib   &&
 depends libxml2 &&
 depends libxslt &&

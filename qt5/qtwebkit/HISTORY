@@ -1,3 +1,6 @@
+2014-12-19 Treeve Jelbert <treeve@sourcemage.org>
+	* DEPENDS: add libwebp
+
 2014-12-10 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.4.0
 
