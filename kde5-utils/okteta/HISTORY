@@ -1,3 +1,6 @@
+2014-12-22  Treeve Jelbert <treeve@sourcemage.org>
+	* DPENDS: use  qca2-qt5
+
 2014-12-17  Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 14.12.0
 
