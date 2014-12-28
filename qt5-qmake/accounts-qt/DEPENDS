@@ -1,0 +1,6 @@
+depends qtbase &&
+depends glib2  &&
+depends pkgconfig &&
+depends libaccounts-glib &&
+optional_depends doxygen ''' 'build documentation''
+

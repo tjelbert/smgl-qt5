@@ -1,0 +1,17 @@
+           SPELL=accounts-qt
+          SPELLX=accounts-sso
+         VERSION=1.11
+     SOURCE_HASH=sha512:bc41d4de34191cfedb1cf8ffcacf3f9bd8659e5e4a2e6a9eea28f878617b84cf338c5ff3fe67c4fa72f65ba04aa50ab13dbe66dea04b3313722d5235da21e6a7
+          SOURCE=$SPELL-$VERSION.tar.bz2
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+       WEB_SITE=http://code.google.com/p/accounts-sso
+   SOURCE_URL[0]=http://$SPELLX.googlecode.com/files/$SOURCE
+      LICENSE[0]=LGPL
+         ENTERED=20141102
+        KEYWORDS=""
+           SHORT=""
+cat << EOF
+The Accounts & SSO framework consists of a set of components and libraries which implement an account 
+manager for a user's online accounts and a single-sign-on daemon which handles the authentication to the 
+remote services on behalf of the client applications.
+EOF

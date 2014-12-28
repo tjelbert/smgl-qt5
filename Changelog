@@ -1,3 +1,6 @@
+2014-12-23 Treeve Jelbert <treeve@sourcemage.org>
+	* qt5-qmake/accounts-qt: added, account signon library
+
 2014-12-13 Treeve Jelbert <treeve@sourcemage.org>
 	* qt5-qmake/qupzilla: added, web browser
 

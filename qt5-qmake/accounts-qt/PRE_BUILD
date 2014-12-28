@@ -1,0 +1,9 @@
+default_pre_build    &&
+cd $SOURCE_DIRECTORY &&
+rmdir build
+touch build
+#if ! is_depends_enabled $SPELL doxygen;then
+# fix install and remove some files
+# sed -i '/doc/D;s/tests//;/EXTRA/D;/DISTNAME/,/disclean/D' accounts-qt.pro &&
+# sed -i '/coverage.pri/D' common-project-config.pri
+#fi
