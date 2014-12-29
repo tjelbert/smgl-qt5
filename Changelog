@@ -1,3 +1,6 @@
+2014-12-29 Treeve Jelbert <treeve@sourcemage.org>
+	* qt5-cmake/qca2-qt5: qt5 version of qca2
+
 2014-12-23 Treeve Jelbert <treeve@sourcemage.org>
 	* qt5-qmake/accounts-qt: added, account signon library
 

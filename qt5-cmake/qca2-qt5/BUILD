@@ -1,0 +1,1 @@
+OPTS+=' -DBUILD_TESTS=0'

@@ -1,0 +1,4 @@
+2014-12-29 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: 2.1.0
+	* BUILD: use qt5_cmake_build
+	* DEPENDS: qtbase
