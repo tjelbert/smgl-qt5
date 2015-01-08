@@ -1,0 +1,14 @@
+           SPELL=networkmanager-qt
+         VERSION=5.6.0
+     SOURCE_HASH=sha512:8b705a650c749f596cd4295540d5c9fc37b7de327192c23f3e1b3498fa7d9e9e883564df5b31ab1d6527a9fe2087982706aa0b494dabd4e7f8e5a7e108566c69
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/stable/frameworks/${VERSION/%.?}/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//networkmanager-qt
+       LICENSE[0]=GPL
+         ENTERED=20150105
+        KEYWORDS="KF5"
+           SHORT="networkmanager bindiongs for Qt5"
+cat << EOF
+Qt wrapper for NetworkManager API
+EOF
