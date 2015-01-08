@@ -1,7 +1,7 @@
            SPELL=kcompletion
-         VERSION=5.5.0
+         VERSION=5.6.0
        VX=${VERSION%.?}
-     SOURCE_HASH=sha512:b82b96dbb05d0db4808c9243a010bff8c3d37fc9cb9ed77f4e7c7c248cf41faaf5fa7b6ebf7dbeab109877589c818bfd97a0e582426acaac4db11b9cd05a3356
+     SOURCE_HASH=sha512:07af605a36b7efa5df3f42f45ca9e10a0bfc5c0c725807dec53cc7a30fe01f02e47a7cfbba350ce677e83a0d541a56d5b268808a892b16faddaebf7d571e25eb
           SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
