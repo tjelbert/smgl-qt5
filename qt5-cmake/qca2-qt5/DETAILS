@@ -1,10 +1,10 @@
             SPELL=qca2-qt5
-           SPELLX=qca2
-         VERSION=2.1.0
-     SOURCE_HASH=sha512:cf2f76fec4b75952ed06874dfe161f4979ece8c51b1d6f91b041f77fb644fcbe96fc7f00efe3b49b5981ef127c87dd929d9847cdab7844db0ac02645262670fb
-          SOURCE=qca-$VERSION.tar.gz
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/qca-$VERSION
-   SOURCE_URL[0]=http://delta.affinix.com/download/qca/2.0/$SOURCE
+           SPELLX=qca-qt5
+         VERSION=2.1.0.1
+     SOURCE_HASH=sha512:e2ebbf9fc6f03107044e6f1e0d893ed93ecf60b515fb2016a2e84a6d38b75f485c19b7511b910ad97f09d9fd6d46b4ed9ff233a1b422184120175c2fcecea5d3
+          SOURCE=$SPELLX-$VERSION.tar.xz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
+   SOURCE_URL[0]=$KDE_URL/stable/$SPELLX/$VERSION/src/$SOURCE
       LICENSE[0]=GPL
         WEB_SITE=http://delta.affinix.com/qca
          ENTERED=20141229
