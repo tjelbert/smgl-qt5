@@ -1,5 +1,6 @@
 2015-01-08 Treeve Jelbert <treeve@sourcemage.org>
 	* kf5-t1/networkmanager-qt: qt5 wrapper for networkmanager
+	* kf5-t2/kpackage: package manager for non-binary data
 
 2015-01-06 Treeve Jelbert <treeve@sourcemage.org>
 	* plasma/plasma-nm: new spell, network manager for plasma

@@ -1,0 +1,6 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS  &&
+depends karchive    &&
+depends kconfig     &&
+depends kcoreaddons &&
+depends kdoctools   &&
+depends ki18n
