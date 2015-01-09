@@ -1,3 +1,6 @@
+2015-01-09 Treeve Jelbert <treeve@sourcemage.org>
+	* DEPENDS: add kpackage
+
 2015-01-08 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.6.0
 

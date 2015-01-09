@@ -26,6 +26,7 @@ depends kiconthemes  &&
 depends kidletime &&
 depends kio       &&
 depends kitemmodels &&
+depends kpackage  &&
 depends kparts    &&
 depends kservice  &&
 depends kunitconversion &&
