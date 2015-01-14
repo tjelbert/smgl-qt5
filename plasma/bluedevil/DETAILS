@@ -1,0 +1,15 @@
+           SPELL=bluedevil
+         VERSION=5.1.95
+     SOURCE_HASH=sha512:2ab19f37d72c929dce59409b474da787e92dab33c1e5638c2c4904e8674d8a71436f4e624f52ed45c85ad8bf8c210da36e16b28285b587c94aa24fe588f83a84
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/plasma/${VERSION/%.?}/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//bluedevil
+         ENTERED=20150110
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kf5"
+           SHORT="qt5 wrapper for Bluetooth"
+cat << EOF
+qt5 wrapper for Bluetooth
+EOF
