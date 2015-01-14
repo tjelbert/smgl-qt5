@@ -1,0 +1,15 @@
+           SPELL=kscreen5
+          SPELLX=kscreen
+         VERSION=5.1.95
+     SOURCE_HASH=sha512:15df18594f23f76502b43c04277445e4e57a44779dd5fd5e6bdd864d99ed569043141e01f16392379f44862beb77b4de8f37881f190986628712cf3381d4674b
+          SOURCE=$SPELLX-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/plasma/${VERSION/%.?}/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kscreen5
+         ENTERED=20140513
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="screen manager for kde5"
+cat << EOF
+screen manager for kde5
+EOF
