@@ -1,0 +1,14 @@
+           SPELL=kdecoration
+         VERSION=5.1.95
+     SOURCE_HASH=sha512:a800673ce25b174132ca6a0be816aa20c276cd030abba05a02b5dc4774b4d63f98128f57fd85c461fb2e8615a5cc6a32815b0e51c5b20f370fb074f1db7556a4
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/plasma/${VERSION/%.?}/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kdecoration
+       LICENSE[0]=GPL
+         ENTERED=20141101
+        KEYWORDS="KF5"
+           SHORT="Plugin based library to create window decorations"
+cat << EOF
+Plugin based library to create window decorations
+EOF
