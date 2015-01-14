@@ -1,3 +1,7 @@
+2015-01-14 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: rename spell
+	* DEPENDS: for qt5 suffix during build
+
 2015-01-08 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: 2.1.0.1
 	  download from kde
