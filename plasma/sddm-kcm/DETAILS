@@ -1,0 +1,14 @@
+           SPELL=sddm-kcm
+         VERSION=5.1.95
+     SOURCE_HASH=sha512:c278a3143080181df3d9637f75c6a2346eff2a7eb9e1d0e5d5d6853102ef7c451156865917a4739880d35ce5d43d3eec97d484412a0f9cb85acf30c67608c880
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/plasma/${VERSION/%.?}/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//sddm-kcm
+       LICENSE[0]=GPL
+         ENTERED=20141006
+        KEYWORDS="KDE5"
+           SHORT="confuguration module for sddm"
+cat << EOF
+confuguration module for sddm
+EOF
