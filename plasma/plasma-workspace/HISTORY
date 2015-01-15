@@ -1,3 +1,6 @@
+20115-01-15 Treeve Jelbert <treeve@sourcemage.org>
+	* DEPENDS: add milou, wayland
+
 2014-12-25 Treeve Jelbert <treeve@sourcemage.org>
 	* plasma-next.conf: fix 
 
