@@ -1,0 +1,10 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS &&
+depends kconfig     &&
+depends kcoreaddons &&
+depends kcrash      &&
+depends kdbusaddons &&
+depends ki18n       &&
+depends kiconthemes &&
+depends knotifications &&
+depends kwidgetsaddons &&
+depends polkit-qt5

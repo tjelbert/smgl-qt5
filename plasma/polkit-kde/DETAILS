@@ -1,0 +1,14 @@
+           SPELL=polkit-kde
+         VERSION=5.1.95
+     SOURCE_HASH=sha512:8e5349b9ac4993e51e5af1319e455280c4f069c22a10f6753e07c4850f2c89ecd083cbb6f30843705c2c3feaedb470071f253647ac6d45e2f754623d6ba532fd
+          SOURCE="${SPELL}-agent-1-${VERSION}.tar.xz"
+   SOURCE_URL[0]=$KDE_URL/unstable/plasma/$VERSION/${SOURCE}
+SOURCE_DIRECTORY="${BUILD_DIRECTORY}/${SPELL}-agent-1-${VERSION}"
+        WEB_SITE="http://www.kde.org"
+      LICENSE[0]="GPL"
+         ENTERED=20150115
+        KEYWORDS=""
+           SHORT="Daemon providing a polkit authentication UI for KDE"
+cat << EOF
+Daemon providing a polkit authentication UI for KDE
+EOF

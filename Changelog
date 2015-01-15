@@ -1,4 +1,7 @@
-2015-01-14Treeve Jelbert <treeve@sourcemage.org>
+2015-01-15 Treeve Jelbert <treeve@sourcemage.org>
+	* plasma/polkit-kde: new spell
+
+2015-01-14 Treeve Jelbert <treeve@sourcemage.org>
 	* plasma; added new spells:
 	  bluedevil, libbluedevil, sddm-kcm, kdecoration, screen5
 
