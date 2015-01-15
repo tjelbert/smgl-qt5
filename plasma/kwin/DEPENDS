@@ -1,5 +1,5 @@
-source  $SECTION_DIRECTORY/KDE_DEPENDS
-
+source  $SECTION_DIRECTORY/KDE_DEPENDS &&
+depends qtx11extras   &&
 depends qtscript      &&
 depends qttools       &&
 
@@ -9,6 +9,7 @@ depends kconfig     &&
 depends kconfigwidgets &&
 depends kcoreaddons &&
 depends kcrash      &&
+depends kdecoration &&
 depends kglobalaccel &&
 depends ki18n       &&
 depends kio         &&
@@ -26,6 +27,13 @@ depends libxcb        &&
 depends libxdmcp      &&
 depends xcb-util-wm   &&
 depends OPENGL        &&
+depends libepoxy      &&
 
 optional_depends kactivities5 '' '' 'Activities support' &&
-optional_depends kwayland      '' '' 'Wayland support'
+optional_depends kwayland      '' '-DCMAKE_DISABLE_FIND_PACKAGE_KWayland=1' 'Wayland support' &&
+if is_depends_enabled $SPELL kwayland;then
+  depends wayland  &&
+  depends libinput
+fi &&
+runtime_depends qtmultimedia &&
+suggest_depends hicolor-icon-theme '' '' 'fallback  theme for many programs' 
