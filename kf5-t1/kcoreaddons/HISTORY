@@ -1,3 +1,6 @@
+2015-01-19 Treeve Jelbert <treeve@sourcemage.org>
+	* PRE_BUILD: added, delete update_xdg_mimetypes
+
 2015-01-08 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.6.0
 
