@@ -11,5 +11,5 @@ optional_depends qtquick1 '' ' -DCMAKE_DISABLE_FIND_PACKAGE_Qt5Declarative=1'\
                                  'build Declarative plugin' &&
 optional_depends  libxml2  '' '' 'xml support'   &&
 optional_depends  OPENGL   '' '' 'improved graphics'  &&
-optional_depends  pulseaudio '' '' \
+optional_depends  pulseaudio -DWITH_PulseAudio={ON,OFF} \
          'for playback via the PulseAudio soundserver'
