@@ -1,3 +1,6 @@
+2015-01-27 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 5.2.0.1
+
 2015-01-15 Treeve Jelbert <treeve@sourcemage.org>
 	* DEPENDS: add libepoxy, libinput, wayland, kdecoration, qtx11extras
 
