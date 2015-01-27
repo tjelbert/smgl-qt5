@@ -1,9 +1,10 @@
            SPELL=baloo5
           SPELLX=${SPELL//5}
-         VERSION=5.1.2
-     SOURCE_HASH=sha512:5f9880b738f7e88887b1a93468303573d8dc454b2d1c1c4e1de434240d457b2d77ad8218813ca162313c1837db7907cb8cdee1358f243badee5226185a4fbf0e
+         VERSION=5.6.0
+              VX=5.2.0
+     SOURCE_HASH=sha512:89bb9be86a12fa6b4669e4930faef3a3f8761ee0c0bbd24d7e711ecae08a613fa3e99d250738de88ad31a232b1b8df7a6af4aaa66fcca52b3fe402378063a378
           SOURCE=$SPELLX-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/stable/plasma/$VERSION/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/plasma/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/${SPELL//5}-$VERSION
         WEB_SITE=https://projects.kde.org/projects/frameworks/baloo5
       LICENSE[0]=LGPL
