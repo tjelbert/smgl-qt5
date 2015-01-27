@@ -1,8 +1,8 @@
            SPELL=libbluedevil
-         VERSION=5.1.95
-     SOURCE_HASH=sha512:6e5272356e59f85171a1110acd78e2f6a5270ba0c607d96c6609878adaeeca373f960204c7e5a3b1022039f6b4ec02341600c3a04bfccf3ea68212f231a02758
+         VERSION=5.2.0
+     SOURCE_HASH=sha512:8aec4e9db4db05b0503b2a1ee896a0c614a8cede6d71d1728bff42cc2cea5fcee1645c7467bbe8ad1cd331766780e23b15d18f58aa619549f1040098b2eb8fe5
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/plasma/${VERSION/%.?}/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/plasma/${VERSION}/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects//libbluedevil
          ENTERED=20150110
