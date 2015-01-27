@@ -1,3 +1,6 @@
+2015-01-27 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: version 5.2.0
+
 20115-01-15 Treeve Jelbert <treeve@sourcemage.org>
 	* DEPENDS: add milou, wayland
 
