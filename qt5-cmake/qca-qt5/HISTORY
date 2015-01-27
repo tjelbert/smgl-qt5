@@ -1,3 +1,6 @@
+2015-01-27 Treeve Jelbert <treeve@sourcemage.org>
+	* DETAILS: 2.1.0.3
+
 2015-01-14 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: rename spell
 	* DEPENDS: for qt5 suffix during build
