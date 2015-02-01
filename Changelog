@@ -1,3 +1,6 @@
+2015-02-01 Treeve Jelbert <treeve@sourcemage.org>
+	* qt5-cmake/qt-gstreamer: gsrreamer for qt5
+
 2015-01-15 Treeve Jelbert <treeve@sourcemage.org>
 	* plasma/polkit-kde: new spell
 

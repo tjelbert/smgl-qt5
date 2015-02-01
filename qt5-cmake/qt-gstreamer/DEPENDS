@@ -1,0 +1,9 @@
+depends cmake '-Wno-dev' &&
+depends qtbase        &&
+depends qtdeclarative &&
+depends qtquick1      &&
+depends gstreamer-1.0 &&
+depends gst-plugins-base-1.0 &&
+depends boost  &&
+depends glib2
+
