@@ -13,4 +13,8 @@ depends libxml2 &&
 depends libxslt &&
 depends icu     &&
 depends sqlite  &&
-depends fontconfig
+depends fontconfig &&
+optional_depends UDEV      '' '' 'hardware detection' &&
+optional_depends qtsensors '' '' 'device orientation/motion features' &&
+optional_depends qtdeclarative '' '' 'QML support' &&
+optional_depends qtmultimedia  '' '' 'multimedias  support'

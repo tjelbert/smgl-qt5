@@ -1,3 +1,6 @@
+2015-02-04 Treeve Jelbert <treeve@sourcemage.org>
+	* DEPENDS: add qtsensors, qtdeclarative, qtmultimedia
+
 2014-12-19 Treeve Jelbert <treeve@sourcemage.org>
 	* DEPENDS: add libwebp
 
