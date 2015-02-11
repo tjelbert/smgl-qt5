@@ -18,5 +18,5 @@ depends libxcb      &&
 depends libxdmcp    &&
 depends xcb-util-wm &&
 depends pkgconfig   &&
-depends UDEV
+depends DEVICE-MANAGER
 
