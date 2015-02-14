@@ -1,9 +1,7 @@
-depends cmake  &&
-depends extra-cmake-modules &&
+source  $SECTION_DIRECTORY/KDE_DEPENDS  &&
 depends kcoreaddons  &&
 depends kio      &&
 depends knotifications &&
 depends kparts   &&
-depends kwallet5 &
-depends qtbase   &&
+depends kwallet5 &&
 depends qtwebkit
