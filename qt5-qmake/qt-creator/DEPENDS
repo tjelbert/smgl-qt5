@@ -1,0 +1,5 @@
+depends qtbase  &&
+depends qtscript &&
+depends qtx11extras &&
+depends qtdeclarative &&
+optional_depends qtquick1 '' '' 'support old QtQuick1'

@@ -1,5 +1,6 @@
 2015-02-16 Treeve Jelbert <treeve@sourcemage.org>
 	* partitionmanager: added
+	* qt-creator: added
 
 2015-02-01 Treeve Jelbert <treeve@sourcemage.org>
 	* qt5-cmake/qt-gstreamer: gsrreamer for qt5

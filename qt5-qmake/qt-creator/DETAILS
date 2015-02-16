@@ -1,0 +1,16 @@
+QT_URL=http://download.qt.io/official_releases/
+           SPELL=qt-creator
+          SPELLX=$SPELL-opensource-src
+         VERSION=3.3.0
+     SOURCE_HASH=sha512:
+          SOURCE=$SPELLX-$VERSION.tar.xz
+      SOURCE_URL=$QT_URL/qtcreator/${VERSION%.?}/$VERSION/submodules/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
+        WEB_SITE=http://qt-project.org/
+      LICENSE[0]=LGPL
+         ENTERED=20150216
+        KEYWORDS="qt5 ide"
+           SHORT="cross-platform integrated development environment for use with Qt"
+cat << EOF
+Qt Creator is a new cross-platform integrated development environment for use with Qt.
+EOF
