@@ -6,7 +6,7 @@ export QTDIR=/usr
 export KF5=$QTDIR
 export XDG_CONFIG_DIRS=/etc/xdg
 #export XDG_DATA_DIRS+=:$QTDIR/share:/usr/share
-export QT_PLUGIN_PATH+=:$KF5/lib/plugins/kf5
+export QT_PLUGIN_PATH+=:$KF5/lib/plugins
 
 export QML2_IMPORT_PATH=$KF5/lib/qml
 export QML_IMPORT_PATH=$QML2_IMPORT_PATH

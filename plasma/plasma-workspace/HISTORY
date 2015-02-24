@@ -1,5 +1,6 @@
 2015-02-24 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.2.1
+	* plasma.sh: fix plugin dir
 
 2015-02-05 Treeve Jelbert <treeve@sourcemage.org>
 	* plasma.desktop, plasma.sh: fix
