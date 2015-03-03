@@ -1,5 +1,4 @@
 source  $SECTION_DIRECTORY/KDE_DEPENDS &&
-depends qtbase   &&
 depends libxcb   &&
 optional_depends libx11  '' '' 'X11 support' &&
 optional_depends doxygen '' '' 'build documentation'
