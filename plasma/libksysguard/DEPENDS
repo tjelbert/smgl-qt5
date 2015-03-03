@@ -1,10 +1,9 @@
 source  $SECTION_DIRECTORY/KDE_DEPENDS
-
+depends qtx11extras &&
 depends qtscript &&
 
 depends kconfig   &&
 depends kconfigwidgets &&
-depends kdelibs4support &&
 depends ki18n     &&
 depends plasma-framework &&
 depends zlib      && 
