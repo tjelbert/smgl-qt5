@@ -3,7 +3,6 @@ source  $SECTION_DIRECTORY/KDE_DEPENDS
 depends kcmutils    &&
 depends kconfig     &&
 depends kdbusaddons &&
-depends kdelibs4support &&
 depends khtml       &&
 depends ki18n       &&
 depends kiconthemes &&
