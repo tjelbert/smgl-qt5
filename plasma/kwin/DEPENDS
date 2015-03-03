@@ -30,10 +30,16 @@ depends OPENGL        &&
 depends libepoxy      &&
 
 optional_depends kactivities5 '' '' 'Activities support' &&
-optional_depends kwayland      '' '-DCMAKE_DISABLE_FIND_PACKAGE_KWayland=1' 'Wayland support' &&
+optional_depends kwayland      '' '-DCMAKE_DISABLE_FIND_PACKAGE_KF5Wayland=1' 'Wayland support' &&
 if is_depends_enabled $SPELL kwayland;then
   depends wayland  &&
-  depends libinput
+  depends libinput &&
+  depends libxkbcommon &&
+  depends DEVICE-MANAGER
+#  runtime_depends  systemd-shim #https://github.com/desrt/systemd-shim
+#  runtime_depends sytembsd # git://uglyman.kremlin.cc/git/systembsd.git
+else
+  optional_depends libinput '' '' ''
 fi &&
 runtime_depends qtmultimedia &&
 suggest_depends hicolor-icon-theme '' '' 'fallback  theme for many programs' 
