@@ -1,12 +1,9 @@
-depends cmake  &&
-depends extra-cmake-modules &&
-depends qtbase &&
+source  $SECTION_DIRECTORY/KDE_DEPENDS &&
 depends karchive &&
-depends kdelibs4support &&
 depends ki18n    &&
 depends kservice &&
 optional_depends poppler     '' '' 'PDF metadata'
-optional_depends mobipocket  '' '' 'mobi metadata'
+#optional_depends mobipocket  '' '' 'mobi metadata'
 optional_depends ebook-tools '' '' 'epub metadata'
 optional_depends taglib      '' '' 'music metadata' &&
 optional_depends exiv2       ''  '' 'image metadata' &&
