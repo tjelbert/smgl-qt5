@@ -1,0 +1,15 @@
+           SPELL=kcalc
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:52f6ca3baaedaaf7d2017e7e8d4bb7aed7fc10c7649d3438f5f9b8d9659b48fe0c25d797fc9e4ac3b1dbb9c6e4b6d8b5a21cab0c6085e1befd6b6c7d9b40cc0d
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kcalc
+         ENTERED=20110821
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="desktop calculator for KDE"
+cat << EOF
+desktop calculator for KDE
+EOF

@@ -3,6 +3,7 @@
 	  kshisen
 	* kde5-libs: add libkmahjongg, libkdegames5, libkomparediff2
 	* kde5-sdk: add kompare
+	* kde5-utils: add kcalc
 
 2015-02-23 Treeve Jelbert <treeve@sourcemage.org>
 	* qt5-cmake/trojita: added, IMAP client
