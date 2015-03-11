@@ -1,0 +1,15 @@
+           SPELL=granatier
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:cddd8abc496ca49466a51e8eab2715b511e1096ae30c5e0384083d80634c9bba9442be692d8486f811b438795931000d32a8e720f9fa51c0922ec4906c893993
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//granatier
+         ENTERED=20120820
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde5 games"
+           SHORT="ay bombs and kill your enemies"
+cat << EOF
+Walk through an arena, lay bombs and kill your enemies
+EOF
