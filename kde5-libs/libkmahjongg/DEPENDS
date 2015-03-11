@@ -1,0 +1,9 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS &&
+depends qtsvg          &&
+depends kconfig        &&
+depends kconfigwidgets &&
+depends kcompletion    &&
+depends kcoreaddons    &&
+depends ki18n          &&
+depends kwidgetsaddons &&
+depends libkdegames5

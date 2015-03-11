@@ -1,0 +1,15 @@
+           SPELL=libkmahjongg
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:f655479e30d2260c64420b93e9f291c7fd7ff2726c56d1cf878629b9d231bf49a89cded6ea224b807010279cb559b4012f05d2d003d3b12276718ef03280eb6f
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//libkmahjongg
+         ENTERED=20120820
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde4 games"
+           SHORT="library for KDE games"
+cat << EOF
+library for KDE games
+EOF
