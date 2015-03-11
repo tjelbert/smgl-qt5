@@ -1,0 +1,14 @@
+           SPELL=kompare
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:bd42e677cb32db8835df069396180401d0ef7a4ef4c11ea606654b58a0056978dcb44db7ca81f50a224229a0e1c6941bee512608a41743e97ccdc76d2919e310
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kompare
+      LICENSE[0]=LGPL
+         ENTERED=20141017
+        KEYWORDS="kde5"
+           SHORT=""
+cat << EOF
+compare files
+EOF

@@ -1,0 +1,9 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS &&
+depends kdoctools   &&
+depends kparts      &&
+depends ktexteditor &&
+depends kwidgetsaddons &&
+depends libkomparediff2
+
+
+#depends kxmlgui
