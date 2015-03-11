@@ -1,0 +1,15 @@
+           SPELL=kmplot
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:f92c418338272b6fa40a1c9ae0d5e9be9c0c232e618ad4237a5873ffa06b77a5cf4183fe675ad1bab3652769a77886f33b0823f5d9eb8dd1bb0443324d638f4e
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kmplot
+         ENTERED=20110218
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde4"
+           SHORT="mathematical function plotter"
+cat << EOF
+mathematical function plotter
+EOF
