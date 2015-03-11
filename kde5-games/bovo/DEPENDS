@@ -1,0 +1,9 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS &&
+depends qtdeclarative &&
+depends qtsvg        &&
+depends kcoreaddons  &&
+depends kdeclarative &&
+depends knewstuff    &&
+depends kxmlgui      &&
+depends libkdegames5 &&
+depends phonon4qt5
