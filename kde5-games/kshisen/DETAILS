@@ -1,0 +1,15 @@
+           SPELL=kshisen
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:a2f15d3796fa1dbcfc784b6b60fbba72f6c21376d0101eefd9493837efd50a5e0a042db200c866ff64a50378fb893f82c367f99ca1f59b7cb9723aa93f99b849
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kshisen
+         ENTERED=20120820
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde5 games"
+           SHORT="Majong game for kde"
+cat << EOF
+Majong game for kde
+EOF
