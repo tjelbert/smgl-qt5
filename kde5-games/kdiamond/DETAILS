@@ -1,0 +1,14 @@
+           SPELL=kdiamond
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:c7aeddd483e7f13b9aea161a26c4f7f02aad2b2387396d69d988401618f01039f4ebcf7ed86b72b23ce5a882b53b44adaf37a9c3364c3f917b69e4178a903dfb
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kdiamond
+         ENTERED=20141202
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde5 games"
+           SHORT=""
+cat << EOF
+EOF
