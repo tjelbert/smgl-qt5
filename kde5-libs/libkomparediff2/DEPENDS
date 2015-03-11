@@ -1,0 +1,8 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS &&
+depends kcodecs &&
+depends kconfig &&
+depends kcoreaddons &&
+depends ki18n   &&
+depends kio     &&
+depends kparts  &&
+depends kxmlgui

@@ -1,0 +1,13 @@
+           SPELL=libkomparediff2
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:e4bbeba2ae80e74114f9c2dc553e9b0f0084ba5f78efec544cb30b350a40a8c03a58c4b1419eb8235b49c0f63a380caf6425f0f49c2ce515ca9775337770296b
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//libkomparediff2
+      LICENSE[0]=LGPL
+         ENTERED=20140503
+        KEYWORDS="kde5"
+           SHORT=""
+cat << EOF
+EOF
