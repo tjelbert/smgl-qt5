@@ -1,0 +1,15 @@
+           SPELL=kpat
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:d7d776828b540759932f8bb4d6b3f3d8b571401a47b4345fad6f856e69da7792910aa9abbdff274631d3683966b5d168c389a53e5a8b833cc53b2b1150025914
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kpat
+         ENTERED=2015014
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde5 games"
+           SHORT="Patience game for kde5"
+cat << EOF
+Patience game for kde
+EOF
