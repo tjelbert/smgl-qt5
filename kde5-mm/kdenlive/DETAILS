@@ -1,0 +1,15 @@
+           SPELL=kdenlive
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:b462442f0cc8f410023afe987d7bf6a42d14725b5924f75e5d0e6a5fa8502f94855267dc0baf55044dac948a3e6e269c45e4ef0deda191b79c729e0aa0f0f636
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kdenlive
+      LICENSE[0]=GPL
+         ENTERED=20030113
+            DOCS="README"
+        KEYWORDS="video kde5"
+           SHORT="non-linear video editing suite for kde5"
+cat << EOF
+kdenlive! (pronounced Kay-den-live) is a non-linear video editing suite
+EOF
