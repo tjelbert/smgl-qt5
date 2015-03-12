@@ -1,0 +1,17 @@
+           SPELL=kiten
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:538f638e77936e8782ceded58ccf96f23a5c3097d7d889af7ed9d2203d7967cbd6c6e10cfdb6abdaaf495eb0e1742a78a0a8d01900fe2fba669087a6c2bbfac9
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kiten
+         ENTERED=20141119
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="Japanese reference and study tool"
+cat << EOF
+Kiten is a Japanese reference and study tool. It features an English 
+to Japanese and Japanese to English dictionary, as well as a Kanji 
+dictionary. For the Kanji dictionary there are multiple ways supported to 
+look up characters
+EOF
