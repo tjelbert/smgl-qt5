@@ -1,0 +1,14 @@
+           SPELL=lokalize
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:297c52643bd7ba8bdfce8096d7eea9f40673100593f1f1880edd6dfedffbd3d8fc6a0fe09c3ee1b948ff90710e235e53cc4bd876099579bdf2ddb4d7dea3d869
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//lokalize
+      LICENSE[0]=GPL
+         ENTERED=20141220
+        KEYWORDS="kde5"
+           SHORT="computer-aided translation tool"
+cat << EOF
+computer-aided translation tool
+EOF
