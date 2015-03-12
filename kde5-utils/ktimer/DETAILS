@@ -1,0 +1,15 @@
+           SPELL=ktimer
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:789f8e66846ec5f96885d1785198a3e91ec5c626ec4d691ba9494993f56f813ebc951638509ecc59ca85930ee1ebd16ef2d03aa122c89050e69f9876aebd0f6e
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//ktimer
+         ENTERED=20110821
+#  SECURITY_PATCH=1
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="timer utility for KDE"
+cat << EOF
+timer utility for KDE
+EOF
