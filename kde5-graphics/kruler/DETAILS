@@ -1,0 +1,14 @@
+           SPELL=kruler
+         VERSION=15.03.80
+     SOURCE_HASH=sha512:a1d2728a37e630ac851ccf6935f3ee5490828da0467bf79fa12e526b9a4d362b0b9401b0acb484575edcd70c06a93e98bfc429492861e49296d4c9f94f14498c
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=$KDE_URL/unstable/applications/${VERSION/%.?}/src/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kruler
+         ENTERED=20110804
+      LICENSE[0]=GPL
+        KEYWORDS="kde5"
+           SHORT="A pixel measuring tool for KDE"
+cat << EOF
+A pixel measuring tool for KDE
+EOF
