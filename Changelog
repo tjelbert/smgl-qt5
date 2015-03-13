@@ -1,6 +1,7 @@
 2015-03-13 Treeve Jelbert <treeve@sourcemage.org>
 	* kf5-t3/kxmlrpcclient: added
 	* kf5-t3/kpeople: added
+	* KDE5_FUNCTIONS: improve update-mime-database usage
 
 2015-03-12 Treeve Jelbert <treeve@sourcemage.org>
 	* kde5-mm/kdenlive: added

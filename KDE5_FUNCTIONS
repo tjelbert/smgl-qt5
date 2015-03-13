@@ -36,7 +36,9 @@ function dbus_install() {
 update_databases() {
 local DD
   DD=$KF5DIR
-  update-mime-database $DD/share/mime/
+  if is_depends_enabled $SPELL;then
+    update-mime-database $DD/share/mime/
+  fi
   if [[ -e $DD/share/desktop-directories ]]; then
     update-desktop-database $DD/share/desktop-directories
   fi
