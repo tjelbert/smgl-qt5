@@ -1,7 +1,7 @@
            SPELL=knewstuff
-         VERSION=5.7.0
+         VERSION=5.8.0
        VX=${VERSION%.?}
-     SOURCE_HASH=sha512:7ce2f2a6e63cdf8b8ae5550cbfc852537e94edd87dab1cded64e8d0c2e9b022bfeec40fee4a1e5e8b0b2ef52535b1b886204d01aa4ef73c185f9998086a0b651
+     SOURCE_HASH=sha512:82dcb39ec57e21c1b2f0e7fc8c1fc3475aa9466bbc33a658097d676393f665ed0f12cbeeae1186edaffaa3b653dd95e3d26a8c1d5bee4680fafa1b74710ced87
           SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
