@@ -5,6 +5,7 @@ depends kconfig  &&
 depends ki18n     &&
 depends kiconthemes &&
 depends kio      &&
+depends kpackage &&
 depends qtbase   &&
 depends qtscript &&
 depends qtdeclarative
