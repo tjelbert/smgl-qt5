@@ -1,2 +1,1 @@
-depends cmake &&
-depends qtbase
+source  $SECTION_DIRECTORY/KDE_DEPENDS

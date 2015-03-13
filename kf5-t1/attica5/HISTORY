@@ -1,5 +1,6 @@
 2015-03-13 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.8.0
+	* DEPENDS: fix
 
 2015-02-14 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.7.0
