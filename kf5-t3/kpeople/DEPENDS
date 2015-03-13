@@ -1,0 +1,6 @@
+source  $SECTION_DIRECTORY/KDE_DEPENDS  &&
+depends kcoreaddons &&
+depends ki18n       &&
+depends kitemviews  &&
+depends kservice    &&
+depends kwidgetsaddons

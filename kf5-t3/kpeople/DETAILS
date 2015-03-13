@@ -1,0 +1,16 @@
+           SPELL=kpeople
+         VERSION=5.8.0
+     SOURCE_HASH=sha512:a5d40273e1cb3c04ceb0458dbe9e1a5a1ec1aea22ba850dc8a847a6e41534d82da21a0344bcaca73fd97fef9faa1f66c76012ce303ed58dcadb88768335687fc
+          SOURCE=$SPELL-$VERSION.tar.xz
+      SOURCE_URL=http://download.kde.org/stable/frameworks/${VERSION/%.?}/$SOURCE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
+        WEB_SITE=https://projects.kde.org/projects//kpeople
+         ENTERED=20141028
+#  SECURITY_PATCH=1
+      LICENSE[0]=LGPL
+        KEYWORDS="kde5"
+           SHORT="Metacontact aggregation library"
+cat << EOF
+Metacontact aggregation library
+A library that provides access to all contacts and the people who hold them
+EOF
