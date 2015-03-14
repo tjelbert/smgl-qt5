@@ -1,3 +1,7 @@
+2015-03-14 Treeve Jelbert <treeve@sourcemage.org>
+	* PRE_BUILD,qt55.patch: added, fix build qith qt5.5
+	* DETAILS: PATCHLEVEL=1
+
 2015-01-27 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: 2.1.0.3
 
