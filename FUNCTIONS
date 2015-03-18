@@ -28,7 +28,7 @@ function default_pre_build () {
 
 #---------------------------------------------------------------------
 function kde5_build() {
-  OPTS+=" -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=1 -Wno-dev"
+  OPTS+=" -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=1 -Wno-dev  $CM_TESTS"
   qt5_cmake_build
 }
 
