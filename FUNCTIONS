@@ -1,7 +1,7 @@
 . $GRIMOIRE/libaccount
 . $GRIMOIRE/config_query_multi.function
 
-QT5DIR="$INSTALL_ROOT/usr"
+QT5DIR="$INSTALL_ROOT/opt/qt5"
 KF5DIR="$QT5DIR"
 SRC=$SOURCE_DIRECTORY
 
@@ -106,6 +106,8 @@ function cmake_install() {
 }
 
 function qt5_cmake_build() {
+  PATH="$QT5DIR/bin/:$PATH"
+  export PKG_CONFIG_PATH="$QT5DIR/lib/pkgconfig"
   cmake_build
 }
 
@@ -113,13 +115,16 @@ function qt5_cmake_build() {
 
 qt5_build() {
   cd  $SOURCE_DIRECTORY &&
+  PATH="$QT5DIR/bin:$PATH"
   qmake PREFIX=$QT5DIR LIBDIR=$QT5DIR/lib \
 $OPTS $SRC/*.pro &&
+#CMAKE_CONFIG_PATH=$QT5DIR/lib 
   make
 }
 
 qbs_build() {
   cd  $SOURCE_DIRECTORY  &&
+  PATH="$QT5DIR/bin:$PATH"
   qbs --file src cpp.optimization:"fast" profile:gcc
 # buildVariant:"release"
 }
