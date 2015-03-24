@@ -1,3 +1,6 @@
+2015-03-24 Treeve Jelbert <treeve@sourcemage.org>
+	* */*: tidy KDE5_DEPENDS usage
+
 2015-03-18 Treeve Jelbert <treeve@sourcemage.org>
 	* CMAKE_CONFIGURE, FUNCTIONS: allow to disable tests
 

@@ -1,3 +1,3 @@
-source  $SECTION_DIRECTORY/KDE_DEPENDS &&
+source  $GRIMOIRE/KDE5_DEPENDS &&
 depends OPENGL &&
 optional_depends eigen3 '' '' 'improved math support'
