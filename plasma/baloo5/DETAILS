@@ -1,8 +1,8 @@
            SPELL=baloo5
           SPELLX=${SPELL//5}
-         VERSION=5.6.1
-              VX=5.2.1
-     SOURCE_HASH=sha512:adf4c1aee66f2fadf3f0de5d8fcf78f837546736beff08b1bb82875c063213bb176e7d62466ed9c86b23ee270b58d091c21ba9d0abe96a41b0c0c42836daf6dc
+         VERSION=5.6.2
+              VX=5.2.2
+     SOURCE_HASH=sha512:4083a4c82e64ac088df321e6337be44a3a34fa5fc711867eba6e2bc7253bdd6109bfbac7a1a004b164c47565f228c66de7c11676246c48748cb2f77aa47fcd4a
           SOURCE=$SPELLX-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/stable/plasma/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/${SPELL//5}-$VERSION
