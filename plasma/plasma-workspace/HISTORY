@@ -1,5 +1,6 @@
 2015-03-25 Treeve Jelbert <treeve@sourcemage.org>
 	* DETAILS: version 5.2.2
+	* plasma*: fix scripts
 
 2015-03-03 Treeve Jelbert <treeve@sourcemage.org>
 	* DEPENDS: add kpackage, kglobalaccel, kxmlrpcclient

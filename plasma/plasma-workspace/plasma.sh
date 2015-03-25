@@ -2,11 +2,13 @@
 if [ "$USER" != "root" ];then
 
 # setup KDE5 environment for SMGL
-export QTDIR=/usr
+export QTDIR=/opt/qt5
 export KF5=$QTDIR
+export PATH+=":$KF5/bin"
 export XDG_CONFIG_DIRS=/etc/xdg
 #export XDG_DATA_DIRS+=:$QTDIR/share:/usr/share
 export QT_PLUGIN_PATH+=:$KF5/lib/plugins
+#export QT_PLUGIN_PATH=$KF5/lib/plugins:$QTDIR/plugins:
 
 export QML2_IMPORT_PATH=$KF5/lib/qml
 export QML_IMPORT_PATH=$QML2_IMPORT_PATH
