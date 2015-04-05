@@ -1,9 +1,7 @@
-depends cmake '-Wno-dev' &&
-depends qtbase        &&
-depends qtdeclarative &&
-depends qtquick1      &&
+source $GRIMOIRE/QT5_DEPENDS &&
+depends qtdeclarative '-Wno-dev' &&
 depends gstreamer-1.0 &&
 depends gst-plugins-base-1.0 &&
 depends boost  &&
-depends glib2
-
+depends glib2  &&
+optional_depends qtquick1 '' '' 'oldQML1 support'
