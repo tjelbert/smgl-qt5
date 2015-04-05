@@ -1,5 +1,6 @@
-depends cmake    &&
-depends qtbase   &&
+source $GRIMOIRE/QT5_DEPENDS &&
+depends qtmultimedia &&
 depends qtscript &&
-depends qtwebkit
+depends qtwebkit &&
 #depends libgcrypt
+optional_depends qtwebengine '-DEnableQtwebengine=1' '-DEnableQtwebengine=0'  'experimental web engine'
