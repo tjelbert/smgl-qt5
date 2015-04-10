@@ -1,7 +1,7 @@
            SPELL=plasma-framework
-         VERSION=5.8.0
+         VERSION=5.9.0
        VX=${VERSION%.?}
-     SOURCE_HASH=sha512:0bca4de90c57aac7bfccb6bfb961623addffe6eaf6cbc4e30e53cbd3ddaed430e2f097ff0f01c04ea01f03439e6a0a564b2ca5d2203739b6fdfbaeb13c88be2b
+     SOURCE_HASH=sha512:acd106b39ec2ee4b1403c92173d858ccf5a557ff3ba11fbe7740c627c0f71905de105af0b3b9fe1b14ec72e336d6ac3f75d1a75f7650aeb1ef2efa5eb3f80978
           SOURCE=$SPELL-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
