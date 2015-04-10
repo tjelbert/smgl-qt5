@@ -1,8 +1,8 @@
            SPELL=kwallet5
           SPELLX=kwallet
-         VERSION=5.8.0
+         VERSION=5.9.0
        VX=${VERSION%.?}
-     SOURCE_HASH=sha512:2276dfa536f3f9d433aa2d2a3d0a9fdf8b18eb2fac8e9d201c85c9c90a7badc7d393d16978b5ce80d19c4e108c0bafdb7964a0ce0268c49c5ddd872162c479a0
+     SOURCE_HASH=sha512:bac91dde2e245cd684c002d5be04e6a62d25bdb341f5d01887452911213acdddb61d097663b7fc4412f9a2be8a90fecabcb9a9d5df5fed4c479c2abeb20139ce
           SOURCE=$SPELLX-$VERSION.tar.xz
       SOURCE_URL=$KDE_URL/stable/frameworks/$VX/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
