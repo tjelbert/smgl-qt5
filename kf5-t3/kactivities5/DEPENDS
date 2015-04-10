@@ -1,5 +1,6 @@
 depends cmake   &&
 depends boost   &&
+depends kcmutils &&
 depends kconfig &&
 depends kcoreaddons &&
 depends kdbusaddons &&
