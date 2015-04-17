@@ -1,8 +1,8 @@
            SPELL=print-manager
-         VERSION=15.03.80
-     SOURCE_HASH=sha512:98d3941cf5ca0965db3ba0d31ef942818b7f50ea05a2e87cd0581d85cd5951c16c7208144e520ffa88cc3c8b7b296bbcf5013e406611378ff4429fae490defc5
+         VERSION=15.04.0
+     SOURCE_HASH=sha512:41d94bf16c382c7dd1678f4e32182360db94d16ddb54e593d11488373e24c652aaea32774623d5fb462a7c75ef608b1a631ea4d8fdcacc73e3c345ee0f15ae59
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+      SOURCE_URL=http://download.kde.org/stable/applications/${VERSION}/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects//print-manager
       LICENSE[0]=GPL
