@@ -1,8 +1,8 @@
            SPELL=kmines
-         VERSION=15.03.80
-     SOURCE_HASH=sha512:b07249299b797f4aa540ed5496777146f72bcb9bec38206066e53b2a759d42380d00038910369ff872433856fd0253ba95b7eecc4737f855dd60a16a849c37f1
+         VERSION=15.04.0
+     SOURCE_HASH=sha512:33db950dc1679ddc9a771bf67ec7e014b8d502466aebd5b1e09a201212969bc49cf079625d062d905deacedebb817317693f20959dfe3bff5d3c4177f50bb9d0
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+      SOURCE_URL=http://download.kde.org/stable/applications/${VERSION}/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects//kmines
          ENTERED=20140915
