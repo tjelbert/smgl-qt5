@@ -1,8 +1,8 @@
            SPELL=libkomparediff2
-         VERSION=15.03.80
-     SOURCE_HASH=sha512:e4bbeba2ae80e74114f9c2dc553e9b0f0084ba5f78efec544cb30b350a40a8c03a58c4b1419eb8235b49c0f63a380caf6425f0f49c2ce515ca9775337770296b
+         VERSION=15.04.0
+     SOURCE_HASH=sha512:6764180ccf41a65d6879ca55599f0e147846cfa97e5a5cc2f2243c3bffe28870192452eea267fc3ce4e21a9486fa6d0804af55fa9dd025492dfd76bf3f032a6c
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+      SOURCE_URL=http://download.kde.org/stable/applications/${VERSION}/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects//libkomparediff2
       LICENSE[0]=LGPL
