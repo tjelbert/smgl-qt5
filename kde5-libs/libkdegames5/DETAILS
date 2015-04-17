@@ -1,9 +1,9 @@
            SPELL=libkdegames5
           SPELLX=${SPELL//5}
-         VERSION=15.03.80
-     SOURCE_HASH=sha512:e6fc2243e25e64b7a034dd3303554022be283858a17a2e8e69ee63bbce2a8cd0adce8311297d6863022a28ceadb285c2068ed7cc25df276d4b141125feabaea9
+         VERSION=15.04.0
+     SOURCE_HASH=sha512:5eb2b5218a3d19e1c2fcefa81ff5e6ee5ec120099487fe3593f5ae5db93880fa03d099d8a31fd503ba0570497da0dde992f94d0ad21d1ec5b7430c9ac7aee9a6
           SOURCE=$SPELLX-$VERSION.tar.xz
-      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+      SOURCE_URL=http://download.kde.org/stable/applications/${VERSION}/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELLX-$VERSION
         WEB_SITE=https://projects.kde.org/projects//libkdegames5
          ENTERED=20120820
