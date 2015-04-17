@@ -1,8 +1,8 @@
            SPELL=kmplot
-         VERSION=15.03.80
-     SOURCE_HASH=sha512:f92c418338272b6fa40a1c9ae0d5e9be9c0c232e618ad4237a5873ffa06b77a5cf4183fe675ad1bab3652769a77886f33b0823f5d9eb8dd1bb0443324d638f4e
+         VERSION=15.04.0
+     SOURCE_HASH=sha512:956168e7b0c1cf127487543516eecc08d5b3f9f9282d5cd069e1c2f2c34b9fb73082c9dc08cf63e35ccf8f3a2454c8e039d2a270a4ee634c2eee00e0cf87d35d
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+      SOURCE_URL=http://download.kde.org/stable/applications/${VERSION}/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects//kmplot
          ENTERED=20110218
