@@ -1,8 +1,8 @@
            SPELL=lokalize
-         VERSION=15.03.80
-     SOURCE_HASH=sha512:297c52643bd7ba8bdfce8096d7eea9f40673100593f1f1880edd6dfedffbd3d8fc6a0fe09c3ee1b948ff90710e235e53cc4bd876099579bdf2ddb4d7dea3d869
+         VERSION=15.04.0
+     SOURCE_HASH=sha512:71799cea1af42f8a8d3be1bdcef878ed16b0714ae92b814a2eb3f6fb2ce44987b526f535a07021e847a365d7bddabce99778789a8c5a6d311646b5e85d856da0
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/applications/${VERSION/%.?}/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/${VERSION}/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects//lokalize
       LICENSE[0]=GPL
