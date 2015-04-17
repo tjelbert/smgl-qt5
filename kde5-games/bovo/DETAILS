@@ -1,8 +1,8 @@
            SPELL=bovo
-         VERSION=15.03.80
-     SOURCE_HASH=sha512:ec19bb16f8da22d51c387300c593a3a7547945c9b1a13503a0a0e7dd0d5c57f472ad197b25874a8d5134d0041aaaffe515c688223953638203e142c1d2d8bb71
+         VERSION=15.04.0
+     SOURCE_HASH=sha512:e4b43b9a77b4626deeb1a6b52673afdc84e0ea97e49c8440a7747b18491cfb69db25d82591fa14f173b54e48009f86f4167b0e055a2483758706c5f47f14681e
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+      SOURCE_URL=http://download.kde.org/stable/applications/${VERSION}/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects//bovo
          ENTERED=20140909
