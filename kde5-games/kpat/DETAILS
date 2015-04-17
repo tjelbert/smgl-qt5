@@ -1,8 +1,8 @@
            SPELL=kpat
-         VERSION=15.03.80
-     SOURCE_HASH=sha512:d7d776828b540759932f8bb4d6b3f3d8b571401a47b4345fad6f856e69da7792910aa9abbdff274631d3683966b5d168c389a53e5a8b833cc53b2b1150025914
+         VERSION=15.04.0
+     SOURCE_HASH=sha512:28e2a8343757a4f254f8df1872a6cd08a28c8fc4775166eeaa8427e720eafab7cfd2a2e2a042ae25a0d32cdfcf7de7f373adfc2f9edef731f52f7c2a125b54af
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+      SOURCE_URL=http://download.kde.org/stable/applications/${VERSION}/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects//kpat
          ENTERED=2015014
