@@ -1,3 +1,6 @@
+2015-04-17 Treeve Jelbert <treeve@sourcemage.org>
+	* partitionmanager: moved to kde5-apps
+
 2015-04-09 Treeve Jelbert <treeve@sourcemage.org>
 	* kde5-appps/FUNCTIONS: added
 	* kde5-apps/konversation: added
