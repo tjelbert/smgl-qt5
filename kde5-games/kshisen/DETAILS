@@ -1,8 +1,8 @@
            SPELL=kshisen
-         VERSION=15.03.80
-     SOURCE_HASH=sha512:a2f15d3796fa1dbcfc784b6b60fbba72f6c21376d0101eefd9493837efd50a5e0a042db200c866ff64a50378fb893f82c367f99ca1f59b7cb9723aa93f99b849
+         VERSION=15.04.0
+     SOURCE_HASH=sha512:955d2cac9f8801b6a2f0aa0de9d6da568417f944383076308b7190bfc115293d76ecdd78a3628d35aca6493df2714ed9e74b996ee9813ec0140504acf93725dc
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+      SOURCE_URL=http://download.kde.org/stable/applications/${VERSION}/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects//kshisen
          ENTERED=20120820
