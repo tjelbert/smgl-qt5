@@ -1,8 +1,8 @@
            SPELL=katomic
-         VERSION=15.03.80
-     SOURCE_HASH=sha512:80e966b1599a0532f4ffd11cb289df52133ce1475932a118162fe952bfafc8a28355cca8b6aed35e2fa8fc72777ff8f1584ac24de21a639523f3f8d8e89d58df
+         VERSION=15.04.0
+     SOURCE_HASH=sha512:9b3bccf04c5d9e27efc17d87d08896102d55b2bc22c9cc0781af003918977e96940d61be9b36eec66e0847f318528eb5a21fc5d1aa25e31b4b2e09a8b1c2137c
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=http://download.kde.org/unstable/applications/${VERSION/%.?}/src/$SOURCE
+      SOURCE_URL=http://download.kde.org/stable/applications/${VERSION}/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects//katomic
          ENTERED=20141202
