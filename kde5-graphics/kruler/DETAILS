@@ -1,8 +1,8 @@
            SPELL=kruler
-         VERSION=15.03.80
-     SOURCE_HASH=sha512:a1d2728a37e630ac851ccf6935f3ee5490828da0467bf79fa12e526b9a4d362b0b9401b0acb484575edcd70c06a93e98bfc429492861e49296d4c9f94f14498c
+         VERSION=15.04.0
+     SOURCE_HASH=sha512:fc3b9da013d0bc7ce00d1784613dfe4a4d836c5c55b027bace629541029df3ed3693667fb9f46fa47dd720a54c12237852ea9db66a945faaa2316e132310d2ab
           SOURCE=$SPELL-$VERSION.tar.xz
-      SOURCE_URL=$KDE_URL/unstable/applications/${VERSION/%.?}/src/$SOURCE
+      SOURCE_URL=$KDE_URL/stable/applications/${VERSION}/src/$SOURCE
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$SPELL-$VERSION
         WEB_SITE=https://projects.kde.org/projects//kruler
          ENTERED=20110804
