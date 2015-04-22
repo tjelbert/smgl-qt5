@@ -1,3 +1,6 @@
+2015-04-22 Treeve Jelbert <treeve@sourcemage.org>
+	* FUNCTIONS: add get_spell_provider_file
+
 2015-04-17 Treeve Jelbert <treeve@sourcemage.org>
 	* partitionmanager: moved to kde5-apps
 

@@ -7,18 +7,6 @@ SRC=$SOURCE_DIRECTORY
 
 export XDG_DATA_DIRS=$KF5DIR/share:/usr/share
 
-if is_depends_enabled $SPELL python;then
-  VV=`installed_version python | cut -c-3` &&
-  PYTHON2=/usr/bin/python${VV}
-  export PYTHON=$PYTHON2
-fi
-
-if is_depends_enabled $SPELL python3;then
-  VV=`installed_version python3 | cut -c-3` &&
-  PYTHON3=/usr/bin/python${VV}m
-  export PYTHON=$PYTHON3
-fi
-
 #---------------------------------------------------------------------
 function default_pre_build () {
   real_default_pre_build
@@ -162,6 +150,19 @@ function default_build_configure() {
 
 function default_build_make(){
   make
+}
+
+
+#---
+## Find a file matching some pattern(s) as installed by the chosen
+## provider, e.g. /usr/bin/python3 for python3 providing PYTHON.
+## @params $1 - spell at hand
+## @params $2 - provider name (PYTHON)
+## @params $3 - expression for grep
+#---
+function get_spell_provider_file(){
+  gaze install $(get_spell_provider "$1" "$2") \
+  | grep "$3" | sort | head -n 1
 }
 
 
