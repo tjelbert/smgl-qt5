@@ -4,6 +4,7 @@
 	* kde5-edu/step: added
 	* kde5-edu/klettres: ADDED
 	* kde5-edu/kstars: added
+	* kde5-edu/kbruch: added
 
 2015-04-22 Treeve Jelbert <treeve@sourcemage.org>
 	* FUNCTIONS: add get_spell_provider_file
