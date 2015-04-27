@@ -2,6 +2,7 @@
 	* kde5-games/kfourinline: added
 	* kde5-edu/cantor$: added
 	* kde5-edu/step: added
+	* kde5-edu/klettres: ADDED
 
 2015-04-22 Treeve Jelbert <treeve@sourcemage.org>
 	* FUNCTIONS: add get_spell_provider_file
