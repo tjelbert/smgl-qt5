@@ -2,6 +2,8 @@ source  $GRIMOIRE/KDE5_DEPENDS
 depends qtdeclarative &&
 depends qtx11extras  &&
 depends qtscript     &&
+
+depends kactivities5 &&
 depends kcmutils     &&
 depends kdelibs4support  &&
 depends kdeclarative &&
@@ -50,7 +52,7 @@ suggest_depends sddm-kcm '' '' 'config tool for sddm' &&
 
 #optional_depends boost        '' '' 'for several plasma dataengines' &&
 #optional_depends akonadi5     '' '' 'event support in the calendar DataEngine' &&
-optional_depends kactivities5  '' '' 'activity related plasmoids' &&
+optional_depends networkmanager-qt '' 'GeoLocation support' ''&&
 optional_depends libdbusmenu-qt5 '' '' 'notifications by Dbus' &&
 optional_depends qalculate    '' '' 'advanced features of the calculator runner' &&
 optional_depends linux-pam    '' '' 'Authentication for screen unlocker' &&
