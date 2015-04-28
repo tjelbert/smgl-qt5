@@ -5,5 +5,5 @@ depends kiconthemes &&
 depends ki18n       &&
 depends knotifications &&
 depends kwidgetsaddons &&
-depends libbluedevil   &&
+depends bluez-qt    &&
 depends shared-mime-info
