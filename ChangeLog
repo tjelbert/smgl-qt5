@@ -1,6 +1,7 @@
 2015-04-28  Treeve Jelbert <treeve@sourcemage.org>
 	* plasma/libbluedevil: spell deprecated [replaced by bluez-qt]
 	* plasma/bluez-qt: added
+	* move qtftp  qthttp  qtstyleplugins
 
 2015-04-27 Treeve Jelbert <treeve@sourcemage.org>
 	* kde5-games/kfourinline: added
